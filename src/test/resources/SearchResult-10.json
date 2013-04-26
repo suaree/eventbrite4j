@@ -1,0 +1,1033 @@
+{
+  "events": [
+    {
+      "summary": {
+        "total_items": 1922,
+        "first_event": 5620119930,
+        "last_event": 6113316093,
+        "filters": {
+          "distance": "10.00M",
+          "city_region": "San Francisco, CA"
+        },
+        "num_showing": 10
+      }
+    },
+    {
+      "event": {
+        "box_header_text_color": "822826",
+        "link_color": "822826",
+        "box_background_color": "FFFFFF",
+        "timezone": "America/Los_Angeles",
+        "box_border_color": "EFEFEF",
+        "logo": "http://ebmedia.eventbrite.com/s3-build/images/1192216/35883470224/1/logo.png",
+        "organizer": {
+          "url": "http://www.eventbrite.com/org/2474611870",
+          "description": "\r\nAskapeer brings together professionals and experts from a variety of industries. \r\nAskapeer seeks to facilitate educational and career-based opportunities, as well as to exhange valuable business insights. \r\nWe encourage you to review our offerings, join us at our events, and contact us with questions or thoughts.\r\n\r\n",
+          "long_description": "\r\nAskapeer brings together professionals and experts from a variety of industries. \r\nAskapeer seeks to facilitate educational and career-based opportunities, as well as to exhange valuable business insights. \r\nWe encourage you to review our offerings, join us at our events, and contact us with questions or thoughts.\r\n\r\n",
+          "id": 2474611870,
+          "name": "Askapeer"
+        },
+        "background_color": "FFFFFF",
+        "id": 5620119930,
+        "category": "meetings,seminars",
+        "box_header_background_color": "EFEFEF",
+        "capacity": 0,
+        "num_attendee_rows": 0,
+        "title": "Advances in siRNA delivery - Online Event",
+        "start_date": "2013-06-26 13:00:00",
+        "status": "Live",
+        "description": "The recent approval of Kynamro for the treatment of homozygous familial hypercholesterolemia marked a critical step in the final validation of the siRNA technology. Join scientists from all over the world to discuss your latest research on siRNA.<BR><BR><DIV STYLE=\"font-weight:bold\"> This is an online event.</DIV><BR><DIV STYLE=\"font-weight:bold\">How it works:</DIV>\n \t<DIV><UL>\n \t\t<LI>Create a profile describing your professional background to introduce yourself to other attendees.</LI>\n \t\t<LI>Request one-on-one meetings with other attendees.</LI>\n\t\t<LI>Accept requests from attendees that have expressly requested to speak with you.</LI>\n\t\t<LI>Start a one-on-one discussion over live video</LI>\n\t\t<LI>Say 'Thank You' when you're ready to speak with someone new.</LI></UL></DIV>\n\t<BR>\n\t<DIV STYLE=\"font-weight:bold\">Benefits of attending:</DIV>\n\t<DIV><UL>\n \t\t<LI>Initiate deals and partnerships</LI>\n\t\t<LI>Boost your career</LI>\n\t\t<LI>Deepen or widen your knowledge in the field</LI>\n\t\t<LI>Meet relevant professionals</LI></UL></DIV><BR><BR>\n\tTo learn more, visit <A HREF=\"http://askapeer.com\">Askapeer</A>.",
+        "end_date": "2013-06-26 14:00:00",
+        "tags": "",
+        "timezone_offset": "GMT-0700",
+        "text_color": "000000",
+        "title_text_color": "822826",
+        "tickets": [
+          {
+            "ticket": {
+              "description": "",
+              "end_date": "2013-06-26 13:00:00",
+              "min": 1,
+              "max": 1,
+              "price": "0.00",
+              "visible": "true",
+              "start_date": "2013-03-09 17:26:17",
+              "currency": "USD",
+              "type": 0,
+              "id": 17339194,
+              "name": "General Admission"
+            }
+          }
+        ],
+        "distance": "0.00M",
+        "created": "2013-02-23 13:50:31",
+        "url": "http://www.eventbrite.com/event/5620119930/SRCH",
+        "box_text_color": "000000",
+        "privacy": "Public",
+        "venue": {
+          "city": "San Francisco",
+          "name": "http://askapeer.com San Francisco",
+          "country": "United States",
+          "region": "CA",
+          "longitude": -122.419416,
+          "postal_code": "",
+          "address_2": "",
+          "address": "This is an online event",
+          "latitude": 37.77493,
+          "country_code": "US",
+          "id": 2912360,
+          "Lat-Long": "37.77493 / -122.419416"
+        },
+        "modified": "2013-03-09 15:26:18",
+        "logo_ssl": "https://ebmedia.eventbrite.com/s3-build/images/1192216/35883470224/1/logo.png",
+        "repeats": "no"
+      }
+    },
+    {
+      "event": {
+        "box_header_text_color": "005580",
+        "link_color": "EE6600",
+        "box_background_color": "FFFFFF",
+        "box_border_color": "D5D5D3",
+        "timezone": "America/Los_Angeles",
+        "organizer": {
+          "url": "http://www.eventbrite.com/org/3278743664",
+          "description": "",
+          "long_description": "",
+          "id": 3278743664,
+          "name": ""
+        },
+        "background_color": "FFFFFF",
+        "id": 3997978060,
+        "category": "conferences,sales",
+        "box_header_background_color": "EFEFEF",
+        "capacity": 0,
+        "num_attendee_rows": 59,
+        "title": "Biggerplate Unplugged - San Francisco",
+        "start_date": "2013-09-19 13:00:00",
+        "status": "Live",
+        "description": "<P STYLE=\"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px;\"><SPAN STYLE=\"font-size: large;\"><STRONG STYLE=\"font-family: arial, helvetica, sans-serif; font-size: medium;\"><SPAN STYLE=\"color: #ff6600;\">Join us at Biggerplate Unplugged in beautiful San Francisco!</SPAN></STRONG></SPAN></P>\r\n<P STYLE=\"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px;\"><SPAN STYLE=\"line-height: 14px;\"><SPAN STYLE=\"color: #333399;\"><EM><STRONG>Biggerplate</STRONG><STRONG> Unplugged</STRONG></EM> </SPAN></SPAN><SPAN STYLE=\"line-height: 17px;\">brings together mind mapping software users, developers, bloggers and trainers to</SPAN><SPAN STYLE=\"line-height: 14px;\"> explore trends and innovations in the world of mind mapping! </SPAN></P>\r\n<P STYLE=\"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px;\"><SPAN STYLE=\"font-size: small;\"><SPAN STYLE=\"font-family: arial, helvetica, sans-serif; line-height: 14px;\">Listen to expert speakers, join in roundtable discussions, or even put yourself forward for a 'lightning session' - these are lively, interactive, and engaging events that </SPAN><SPAN STYLE=\"font-family: arial, helvetica, sans-serif; line-height: 14px;\">provide a unique opportunity to turn online connections into real world collaboration, and a chance to explore and shape the future of mind mapping.</SPAN></SPAN></P>\r\n<P STYLE=\"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px;\"><STRONG STYLE=\"font-family: Helvetica, Arial, sans-serif; font-size: 12px;\"><SPAN STYLE=\"font-family: arial, helvetica, sans-serif; font-size: small; line-height: 14px;\">Register your interest now, and we'll email you when details of this event are confirmed and give you a chance to buy reduced price tickets prior to general release!</SPAN></STRONG></P>\r\n<P STYLE=\"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px;\"><STRONG STYLE=\"font-family: Helvetica, Arial, sans-serif; font-size: 12px;\"><FONT STYLE=\"color: #bf4000; text-decoration: underline;\" SIZE=\"2\" FACE=\"arial, helvetica, sans-serif\"><SPAN STYLE=\"line-height: 14px;\"><BR></SPAN></FONT></STRONG></P>\r\n<P STYLE=\"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px;\"><STRONG STYLE=\"font-family: Helvetica, Arial, sans-serif; font-size: 12px;\"><FONT STYLE=\"color: #bf4000; text-decoration: underline;\" SIZE=\"2\" FACE=\"arial, helvetica, sans-serif\"><SPAN STYLE=\"line-height: 14px;\"><A STYLE=\"color: #bf4000; text-decoration: underline;\" HREF=\"http://www.biggerplate.com/events/London-2013.aspx\" TARGET=\"_blank\">View photos, videos, and presentations from Biggerplate Unplugged in London ></A></SPAN></FONT></STRONG></P>\r\n<P STYLE=\"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px;\"><STRONG STYLE=\"font-family: arial, helvetica, sans-serif; font-size: medium;\"><SPAN STYLE=\"color: #ff6600;\"><OBJECT WIDTH=\"425\" HEIGHT=\"350\" ALIGN=\"left\" VSPACE=\"10\" DATA=\"http://www.youtube.com/v/weOed075dbc?version=3\" TYPE=\"application/x-shockwave-flash\"><PARAM NAME=\"src\" VALUE=\"http://www.youtube.com/v/weOed075dbc?version=3\"></PARAM><PARAM NAME=\"play\" VALUE=\"false\"></PARAM><PARAM NAME=\"quality\" VALUE=\"high\"></PARAM><PARAM NAME=\"loop\" VALUE=\"false\"></PARAM></OBJECT></SPAN></STRONG></P>\r\n<P> </P>\r\n<P><FONT SIZE=\"2\" FACE=\"arial, helvetica, sans-serif\"><SPAN STYLE=\"line-height: 14px;\"><BR></SPAN></FONT></P>\r\n<P><FONT SIZE=\"2\" FACE=\"arial, helvetica, sans-serif\"><SPAN STYLE=\"line-height: 14px;\"><BR></SPAN></FONT></P>\r\n<P><FONT SIZE=\"2\" FACE=\"arial, helvetica, sans-serif\"><SPAN STYLE=\"line-height: 14px;\"><BR></SPAN></FONT></P>\r\n<P><FONT SIZE=\"2\" FACE=\"arial, helvetica, sans-serif\"><SPAN STYLE=\"line-height: 14px;\"><BR></SPAN></FONT></P>\r\n<P><FONT SIZE=\"2\" FACE=\"arial, helvetica, sans-serif\"><SPAN STYLE=\"line-height: 14px;\"><BR></SPAN></FONT></P>\r\n<P><FONT SIZE=\"2\" FACE=\"arial, helvetica, sans-serif\"><SPAN STYLE=\"line-height: 14px;\"><BR></SPAN></FONT></P>\r\n<P><FONT SIZE=\"2\" FACE=\"arial, helvetica, sans-serif\"><SPAN STYLE=\"line-height: 14px;\"><BR></SPAN></FONT></P>\r\n<P><FONT SIZE=\"2\" FACE=\"arial, helvetica, sans-serif\"><SPAN STYLE=\"line-height: 14px;\"><BR></SPAN></FONT></P>\r\n<P><FONT SIZE=\"2\" FACE=\"arial, helvetica, sans-serif\"><SPAN STYLE=\"line-height: 14px;\"><BR></SPAN></FONT></P>\r\n<P><FONT SIZE=\"2\" FACE=\"arial, helvetica, sans-serif\"><SPAN STYLE=\"line-height: 14px;\"><BR></SPAN></FONT></P>\r\n<P><FONT SIZE=\"2\" FACE=\"arial, helvetica, sans-serif\"><SPAN STYLE=\"line-height: 14px;\"><BR></SPAN></FONT></P>\r\n<P><FONT SIZE=\"2\" FACE=\"arial, helvetica, sans-serif\"><SPAN STYLE=\"line-height: 14px;\"><BR></SPAN></FONT></P>\r\n<P><FONT SIZE=\"2\" FACE=\"arial, helvetica, sans-serif\"><SPAN STYLE=\"line-height: 14px;\"><BR></SPAN></FONT></P>\r\n<P><FONT SIZE=\"2\" FACE=\"arial, helvetica, sans-serif\"><SPAN STYLE=\"line-height: 14px;\"><BR></SPAN></FONT></P>\r\n<P><FONT SIZE=\"2\" FACE=\"arial, helvetica, sans-serif\"><SPAN STYLE=\"line-height: 14px;\"><BR></SPAN></FONT></P>\r\n<P><FONT SIZE=\"2\" FACE=\"arial, helvetica, sans-serif\"><SPAN STYLE=\"line-height: 14px;\"><BR></SPAN></FONT></P>\r\n<P><FONT SIZE=\"2\" FACE=\"arial, helvetica, sans-serif\"><SPAN STYLE=\"line-height: 14px;\"><BR></SPAN></FONT></P>",
+        "end_date": "2013-09-19 18:00:00",
+        "tags": "Mind Map, Mind Mapping, Biggerplate, MindManager, iMindMap, XMind, MindGenius, Mapping, San Francisco, California, USA, United States, ",
+        "timezone_offset": "GMT-0700",
+        "text_color": "005580",
+        "title_text_color": "",
+        "tickets": [
+          {
+            "ticket": {
+              "description": "Register your interest now, and we will let you know in advance when details are confirmed and tickets become available. Space will be limited, so register now to be sure of your place!",
+              "end_date": "2013-09-19 12:00:00",
+              "min": 0,
+              "max": 0,
+              "price": "0.00",
+              "visible": "true",
+              "currency": "USD",
+              "type": 0,
+              "id": 14667750,
+              "name": "Register your interest"
+            }
+          },
+          {
+            "ticket": {
+              "description": "Get your ticket early and save!",
+              "end_date": "2013-10-07 10:00:00",
+              "min": 0,
+              "max": 4,
+              "price": "63.24",
+              "visible": "false",
+              "currency": "USD",
+              "type": 0,
+              "id": 17193290,
+              "name": "Early Bird"
+            }
+          },
+          {
+            "ticket": {
+              "description": "A standard conference ticket",
+              "end_date": "2013-10-07 23:30:00",
+              "min": 0,
+              "max": 0,
+              "price": "84.34",
+              "visible": "false",
+              "currency": "USD",
+              "type": 0,
+              "id": 17193314,
+              "name": "Standard Ticket"
+            }
+          },
+          {
+            "ticket": {
+              "description": "Bring a friend or colleague along and save money on each ticket you buy!",
+              "end_date": "2013-10-07 23:00:00",
+              "min": 2,
+              "max": 0,
+              "price": "68.51",
+              "visible": "false",
+              "currency": "USD",
+              "type": 0,
+              "id": 17193336,
+              "name": "Bring a Friend Tickets"
+            }
+          }
+        ],
+        "distance": "0.00M",
+        "created": "2012-07-26 03:51:35",
+        "url": "http://unplugged-sanfrancisco-SRCH.eventbrite.com",
+        "box_text_color": "000000",
+        "privacy": "Public",
+        "venue": {
+          "city": "San Francisco",
+          "name": "",
+          "country": "United States",
+          "region": "",
+          "longitude": -122.419416,
+          "postal_code": "",
+          "address_2": "",
+          "address": "",
+          "latitude": 37.77493,
+          "country_code": "US",
+          "id": 2211932,
+          "Lat-Long": "37.77493 / -122.419416"
+        },
+        "modified": "2013-03-04 09:40:39",
+        "repeats": "no"
+      }
+    },
+    {
+      "event": {
+        "box_header_text_color": "005580",
+        "link_color": "EE6600",
+        "box_background_color": "FFFFFF",
+        "box_border_color": "D5D5D3",
+        "timezone": "America/Los_Angeles",
+        "organizer": {
+          "url": "http://www.eventbrite.com/org/3029636032",
+          "description": "Leela is the founder and organizer behind Ebb Studio, teaching transformational surrender through coaching, energy work, and bodywork.  \r\nShe says, \"My background includes parish ministry, coaching, reiki, massage therapy, IT, woodworking, and theater. Through my own stubbornness I have learned the power of pleasure, surrender, and flexibility, and now I want everyone to know.",
+          "long_description": "",
+          "id": 3029636032,
+          "name": "Ebb Studio"
+        },
+        "background_color": "FFFFFF",
+        "id": 6016875637,
+        "category": "",
+        "box_header_background_color": "EFEFEF",
+        "capacity": 200,
+        "num_attendee_rows": 0,
+        "title": "Body of Pleasure: an introduction",
+        "start_date": "2013-07-20 10:00:00",
+        "status": "Live",
+        "description": "<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;\">body of pleasure: an introduction</SPAN></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; font-weight: bold; vertical-align: baseline; white-space: pre-wrap;\">because you know more than you know</SPAN></P>\r\n<P><STRONG STYLE=\"font-family: 'Times New Roman'; font-size: medium; font-weight: normal;\"><BR></STRONG></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;\">Your body</SPAN></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;\">is your directional signal.</SPAN></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;\">It tells you everything you need to know:</SPAN></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;\">when to go</SPAN></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;\">when to stop</SPAN></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;\">when to make a sharp right turn</SPAN></P>\r\n<P><STRONG STYLE=\"font-family: 'Times New Roman'; font-size: medium; font-weight: normal;\"><BR></STRONG></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;\"> but over the years you've been taught not to listen</SPAN></P>\r\n<P><STRONG STYLE=\"font-family: 'Times New Roman'; font-size: medium; font-weight: normal;\"><BR></STRONG></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;\">which sucks.</SPAN></P>\r\n<P><STRONG STYLE=\"font-family: 'Times New Roman'; font-size: medium; font-weight: normal;\"><BR></STRONG></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;\">Our parents teachers grandparents mentors coaches best friends</SPAN></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;\">thought they were teaching us the right things to do:</SPAN></P>\r\n<P><STRONG STYLE=\"font-family: 'Times New Roman'; font-size: medium; font-weight: normal;\"><BR></STRONG></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;\">suck it up, be brave, be strong, don't let them see, just keep swimming....</SPAN></P>\r\n<P><STRONG STYLE=\"font-family: 'Times New Roman'; font-size: medium; font-weight: normal;\"><BR></STRONG></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;\">but inside we knew there was a better way.</SPAN></P>\r\n<P><STRONG STYLE=\"font-family: 'Times New Roman'; font-size: medium; font-weight: normal;\"><BR></STRONG></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;\">There is.</SPAN></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;\">You were right.</SPAN></P>\r\n<P><STRONG STYLE=\"font-family: 'Times New Roman'; font-size: medium; font-weight: normal;\"><BR></STRONG></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;\">In this combination talk and workshop you'll get</SPAN></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;\">re-introduced</SPAN></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;\">to the body you live in all the time</SPAN></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;\">to the joy of occupying it</SPAN></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;\">and even better</SPAN></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;\">to the joy of hearing what it has to say.</SPAN></P>\r\n<P><STRONG STYLE=\"font-family: 'Times New Roman'; font-size: medium; font-weight: normal;\"><BR></STRONG></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;\">You'll leave with tools and practice for reconnecting</SPAN></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;\">and for pattern-changing</SPAN></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;\">and at least one practical application</SPAN></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;\">in the figuring-out-what-you-really-want department.</SPAN></P>\r\n<P><STRONG STYLE=\"font-family: 'Times New Roman'; font-size: medium; font-weight: normal;\"><BR></STRONG></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;\">love your body</SPAN></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;\">and let it tell you</SPAN></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;\">where you should go next.</SPAN></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;\">Because it knows.</SPAN></P>\r\n<P><STRONG STYLE=\"font-family: 'Times New Roman'; font-size: medium; font-weight: normal;\"><BR></STRONG></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;\">Seven hours on Saturday, July 20th, (10-5)</SPAN></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;\">in San Francisco</SPAN></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;\">wear comfortable clothes</SPAN></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"background-color: transparent; font-family: Arial; font-size: 15px; white-space: pre-wrap;\">$60</SPAN></P>\r\n<P><STRONG STYLE=\"font-family: 'Times New Roman'; font-size: medium; font-weight: normal;\"><BR></STRONG></P>\r\n<P STYLE=\"margin-top: 0pt; margin-bottom: 0pt;\" DIR=\"ltr\"><SPAN STYLE=\"font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;\">200 seats.</SPAN></P>",
+        "end_date": "2013-07-20 17:00:00",
+        "tags": "",
+        "timezone_offset": "GMT-0700",
+        "text_color": "005580",
+        "title_text_color": "",
+        "tickets": [
+          {
+            "ticket": {
+              "description": "",
+              "end_date": "2013-07-20 09:00:00",
+              "min": 0,
+              "max": 0,
+              "price": "60.00",
+              "visible": "true",
+              "currency": "USD",
+              "type": 0,
+              "id": 17893173,
+              "name": "Body of Pleasure: an introduction"
+            }
+          }
+        ],
+        "distance": "0.00M",
+        "created": "2013-03-26 11:21:17",
+        "url": "http://bodyofpleasureintro-SRCH.eventbrite.com",
+        "box_text_color": "000000",
+        "privacy": "Public",
+        "venue": {
+          "city": "San Francisco",
+          "name": "",
+          "country": "United States",
+          "region": "CA",
+          "longitude": -122.419416,
+          "postal_code": "",
+          "address_2": "",
+          "address": "",
+          "latitude": 37.77493,
+          "country_code": "US",
+          "id": 3239199,
+          "Lat-Long": "37.77493 / -122.419416"
+        },
+        "modified": "2013-03-26 11:30:54",
+        "repeats": "no"
+      }
+    },
+    {
+      "event": {
+        "box_header_text_color": "005580",
+        "link_color": "EE6600",
+        "box_background_color": "FFFFFF",
+        "timezone": "America/Los_Angeles",
+        "box_border_color": "D5D5D3",
+        "logo": "http://ebmedia.eventbrite.com/s3-build/images/1520727/100373732/1/logo.jpg",
+        "organizer": {
+          "url": "http://interventiontraining.eventbrite.com",
+          "description": "\r\nIntervention Specialists is a crisis intervention and case management agency utilizing Brad Lamm's highly successful Breakthrough Intervention method.  \r\nChange Begins! \r\nVisit Website\r\n",
+          "long_description": "",
+          "id": 1743918572,
+          "name": "Change Inc., by Brad Lamm"
+        },
+        "background_color": "FFFFFF",
+        "id": 5121552702,
+        "category": "conferences,seminars",
+        "box_header_background_color": "EFEFEF",
+        "capacity": 40,
+        "num_attendee_rows": 0,
+        "title": "Brad Lamm's Breakthrough Intervention skills training (SF-CA)",
+        "start_date": "2013-05-16 14:30:00",
+        "status": "Live",
+        "description": "<P><IMG TITLE=\"Brad Lamm's Breakthrough Intervention skills training\" SRC=\"https://evbdn.eventbrite.com/s3-s3/eventlogos/99676/bradbreakthroughhdr.jpg\" ALT=\"Brad Lamm's Breakthrough Intervention skills training\" WIDTH=\"600\" HEIGHT=\"200\"></P>\r\n<P><STRONG><SPAN STYLE=\"color: #4682b4;\"><SPAN STYLE=\"font-family: Arial, Helvetica, sans-serif; font-size: large;\">May 16 - 18, 2013 in </SPAN></SPAN></STRONG><STRONG><SPAN STYLE=\"color: #4682b4;\"><SPAN STYLE=\"font-family: Arial, Helvetica, sans-serif; font-size: large;\">San Francisco, CA </SPAN></SPAN></STRONG></P>\r\n<P><SPAN STYLE=\"color: #4682b4;\"><SPAN STYLE=\"font-family: Arial, Helvetica, sans-serif; font-size: large;\"><SPAN STYLE=\"font-size: small;\">Doubletree Hilton, San Francisco Airport, Burlingame, CA<BR></SPAN></SPAN></SPAN></P>\r\n<P><SPAN STYLE=\"color: #444444; font-family: Arial, Helvetica, sans-serif; font-size: 13px;\">Brad Lamm's Breakthrough Intervention: the powerful, engaging intervention method that is inspiring clinicians, therapists, counselors and lay people across the country to intervene differently <SPAN STYLE=\"text-decoration: underline;\">and </SPAN></SPAN><SPAN STYLE=\"text-decoration: underline;\">better</SPAN><SPAN STYLE=\"color: #444444; font-family: Arial, Helvetica, sans-serif; font-size: 13px;\">. </SPAN></P>\r\n<P><STRONG><SPAN STYLE=\"font-family: arial,helvetica,sans-serif;\">Please join us for our regional trainings for 2013.</SPAN></STRONG></P>\r\n<P STYLE=\"text-align: left;\"><SPAN STYLE=\"color: #444444; font-family: Arial, Helvetica, sans-serif; font-size: 13px;\">Make time for yourself to learn, grow and build the skills necessary to enhance your work with the leaders in the industry, and conducted by</SPAN><SPAN STYLE=\"color: #444444; font-family: Arial, Helvetica, sans-serif; font-size: 13px;\"> noted author, teacher and interventionist Brad Lamm and Intervention Specialists' Director of Family Care, Dr. Kathy Leigh Willis, PhD.</SPAN></P>\r\n<P STYLE=\"text-align: left;\"><SPAN STYLE=\"color: #444444; font-family: Arial, Helvetica, sans-serif; font-size: 13px;\">Breakthrough Intervention skills training equips participants to understand the history and methods of various intervention models in comparison to Brad Lamm’s invitational Breakthrough Intervention method, which pairs invitational intervention </SPAN>with <SPAN STYLE=\"font-family: arial,helvetica,sans-serif;\">a long-term family recovery curriculum. Through education, case studies and role-play rich training, participants will learn how to intervene using this cutting edge approach to initiating Family Recovery.</SPAN><BR STYLE=\"color: #444444; font-family: Arial, Helvetica, sans-serif; font-size: 13px;\"><BR STYLE=\"color: #444444; font-family: Arial, Helvetica, sans-serif; font-size: 13px;\"><SPAN STYLE=\"color: #4682b4;\"><STRONG><SPAN STYLE=\"font-family: Arial, Helvetica, sans-serif; font-size: 13px;\">Breakthrough Intervention follows the concepts & methods outlined in Brad's books:</SPAN></STRONG></SPAN><BR STYLE=\"color: #444444; font-family: Arial, Helvetica, sans-serif; font-size: 13px;\"><SPAN STYLE=\"color: #4682b4;\"><STRONG><SPAN STYLE=\"font-family: Arial, Helvetica, sans-serif; font-size: 13px;\">+ HOW TO HELP THE ONE YOU LOVE: A New Way to Intervene</SPAN></STRONG></SPAN><BR STYLE=\"color: #444444; font-family: Arial, Helvetica, sans-serif; font-size: 13px;\"><SPAN STYLE=\"color: #4682b4;\"><STRONG><SPAN STYLE=\"font-family: Arial, Helvetica, sans-serif; font-size: 13px;\">+</SPAN></STRONG><STRONG><SPAN STYLE=\"font-family: Arial, Helvetica, sans-serif; font-size: 13px;\"> FAMILY MATTERS: 183 Days to Freedom</SPAN></STRONG></SPAN><BR STYLE=\"color: #444444; font-family: Arial, Helvetica, sans-serif; font-size: 13px;\"><SPAN STYLE=\"color: #4682b4;\"><STRONG><SPAN STYLE=\"font-family: Arial, Helvetica, sans-serif; font-size: 13px;\">+ </SPAN></STRONG><STRONG><SPAN STYLE=\"font-family: Arial, Helvetica, sans-serif; font-size: 13px;\">JUST 10 LBS: Easy Steps to Weighing What You Want</SPAN></STRONG></SPAN><BR STYLE=\"color: #444444; font-family: Arial, Helvetica, sans-serif; font-size: 13px;\"><BR STYLE=\"color: #444444; font-family: Arial, Helvetica, sans-serif; font-size: 13px;\"><SPAN STYLE=\"color: #444444; font-family: Arial, Helvetica, sans-serif; font-size: 13px;\">Participants are invited to move from initial Breakthrough Intervention skills training to certification in this method through supervision of two cases from start to finish. </SPAN></P>\r\n<P><SPAN STYLE=\"color: #444444; font-family: Arial, Helvetica, sans-serif; font-size: 13px;\">CBI (Certified Breathrough Interventionist) credential maintained through Change Inc.</SPAN></P>\r\n<P><SPAN STYLE=\"font-family: Arial, Helvetica, sans-serif; font-size: 13px; text-align: -webkit-auto; color: #4682b4;\"><BR></SPAN></P>\r\n<P STYLE=\"text-align: center;\"><SPAN STYLE=\"font-family: Arial, Helvetica, sans-serif; color: #4682b4;\">22 Hours of CEUs available after completion from </SPAN><SPAN STYLE=\"color: #4682b4; font-family: Arial, Helvetica, sans-serif;\">IICB</SPAN></P>\r\n<P STYLE=\"text-align: center;\"><SPAN STYLE=\"font-family: Arial, Helvetica, sans-serif; font-size: 13px; text-align: -webkit-auto; color: #4682b4;\">For more information contact Info@Change.us</SPAN></P>\r\n<P STYLE=\"text-align: center;\"> </P>\r\n<P STYLE=\"color: #000000; font-family: Helvetica, Arial, sans-serif; text-align: center;\"><SPAN STYLE=\"font-size: large;\"><STRONG><SPAN STYLE=\"color: #4682b4; font-family: Arial, Helvetica, sans-serif;\">With More Cities & Dates in 2013:</SPAN></STRONG></SPAN></P>\r\n<P STYLE=\"color: #000000; font-family: Helvetica, Arial, sans-serif; text-align: center;\"><SPAN STYLE=\"font-size: medium;\"><SPAN STYLE=\"color: #4682b4;\"><SPAN STYLE=\"font-family: Arial, Helvetica, sans-serif;\">June</SPAN><SPAN STYLE=\"font-family: Arial, Helvetica, sans-serif;\"> </SPAN><SPAN STYLE=\"font-family: Arial, Helvetica, sans-serif;\">| </SPAN><SPAN STYLE=\"font-family: Arial, Helvetica, sans-serif;\">Philadelphia, PA: June 20 – 22, 2013</SPAN></SPAN></SPAN></P>\r\n<P STYLE=\"color: #000000; font-family: Helvetica, Arial, sans-serif; text-align: center;\"><SPAN STYLE=\"font-size: medium;\"><SPAN STYLE=\"color: #4682b4;\"><SPAN STYLE=\"font-family: Arial, Helvetica, sans-serif;\">July</SPAN><SPAN STYLE=\"font-family: Arial, Helvetica, sans-serif;\"> </SPAN><SPAN STYLE=\"font-family: Arial, Helvetica, sans-serif;\">|</SPAN><SPAN STYLE=\"font-family: Arial, Helvetica, sans-serif;\"> London, England, UK: July 12 – 14, 2013</SPAN></SPAN></SPAN></P>\r\n<P STYLE=\"color: #000000; font-family: Helvetica, Arial, sans-serif; text-align: center;\"><SPAN STYLE=\"font-size: medium;\"><SPAN STYLE=\"color: #4682b4;\"><SPAN STYLE=\"font-family: Arial, Helvetica, sans-serif;\"><BR></SPAN></SPAN></SPAN></P>",
+        "end_date": "2013-05-18 17:30:00",
+        "tags": "brad lamm, food addiction, interventions, intervention training, intervention specialists",
+        "timezone_offset": "GMT-0700",
+        "text_color": "005580",
+        "title_text_color": "",
+        "tickets": [
+          {
+            "ticket": {
+              "description": "",
+              "end_date": "2013-05-16 13:30:00",
+              "min": 1,
+              "max": null,
+              "price": "3,094.80",
+              "visible": "true",
+              "currency": "USD",
+              "type": 0,
+              "id": 16498002,
+              "name": "Registered Attendee"
+            }
+          },
+          {
+            "ticket": {
+              "description": "",
+              "end_date": "2013-05-16 13:30:00",
+              "min": 1,
+              "max": null,
+              "price": "1,343.80",
+              "visible": "true",
+              "currency": "USD",
+              "type": 0,
+              "id": 16498006,
+              "name": "Students & Returning Attendee"
+            }
+          }
+        ],
+        "distance": "0.00M",
+        "created": "2012-12-30 15:16:32",
+        "url": "http://breakthroughinterventiondsf-SRCH.eventbrite.com",
+        "box_text_color": "000000",
+        "privacy": "Public",
+        "venue": {
+          "city": "San Francisco",
+          "name": "",
+          "country": "United States",
+          "region": "CA",
+          "longitude": -122.419416,
+          "postal_code": "",
+          "address_2": "",
+          "address": "",
+          "latitude": 37.77493,
+          "country_code": "US",
+          "id": 2791970,
+          "Lat-Long": "37.77493 / -122.419416"
+        },
+        "modified": "2013-04-25 10:25:15",
+        "logo_ssl": "https://ebmedia.eventbrite.com/s3-build/images/1520727/100373732/1/logo.jpg",
+        "repeats": "no"
+      }
+    },
+    {
+      "event": {
+        "box_header_text_color": "404040",
+        "link_color": "0f90ba",
+        "box_background_color": "ffffff",
+        "box_border_color": "dedede",
+        "timezone": "America/Los_Angeles",
+        "organizer": {
+          "url": "http://www.eventbrite.com/org/3717994043",
+          "description": "",
+          "long_description": "",
+          "id": 3717994043,
+          "name": ""
+        },
+        "background_color": "f7f7f7",
+        "id": 6445714305,
+        "category": "",
+        "box_header_background_color": "fafafa",
+        "capacity": 0,
+        "num_attendee_rows": 0,
+        "title": "Bridge 2 Bridge Cruise",
+        "start_date": "2013-04-25 12:30:00",
+        "status": "Live",
+        "description": "<P>The only cruise that sails under both of the iconic San Francisco bridges, namely the Golden Gate Bridge and the Bay Bridge, this 1½ hour lovers’ loop passes the city’s entire bay waterfront and features San Francisco’s illustrious landmarks. The Bridge 2 Bridge Cruise departs at Noon from Pier 43½. Prices are as follows: $36 per person. </P>",
+        "end_date": "2013-05-21 15:30:00",
+        "tags": "",
+        "timezone_offset": "GMT-0700",
+        "text_color": "404040",
+        "title_text_color": "",
+        "tickets": [
+          {
+            "ticket": {
+              "description": "",
+              "end_date": "2013-04-25 11:30:00",
+              "min": 1,
+              "max": null,
+              "price": "38.97",
+              "visible": "true",
+              "currency": "USD",
+              "type": 0,
+              "id": 18395471,
+              "name": "Bridge 2 Bridge Cruise"
+            }
+          }
+        ],
+        "distance": "0.00M",
+        "created": "2013-04-25 08:27:50",
+        "url": "http://www.eventbrite.com/event/6445714305/SRCH",
+        "box_text_color": "666666",
+        "privacy": "Public",
+        "venue": {
+          "city": "San Francisco",
+          "name": "Pier 43 1/2",
+          "country": "United States",
+          "region": "CA",
+          "longitude": -122.419416,
+          "postal_code": "",
+          "address_2": "",
+          "address": "",
+          "latitude": 37.77493,
+          "country_code": "US",
+          "id": 3417571,
+          "Lat-Long": "37.77493 / -122.419416"
+        },
+        "modified": "2013-04-25 08:29:30",
+        "repeats": "no"
+      }
+    },
+    {
+      "event": {
+        "box_header_text_color": "FFFFFF",
+        "link_color": "8D0000",
+        "box_background_color": "F2EEE6",
+        "box_border_color": "C0BDB6",
+        "timezone": "America/Los_Angeles",
+        "organizer": {
+          "url": "http://www.eventbrite.com/org/1787015151",
+          "description": " \r\nHoondog Events is a premier auto enthusiast charity event company. With over 10 years of experience in planning and executing auto show and racing events, we are dedicated to providing a one of a kind experience for attendees of our events.\r\n ",
+          "long_description": "",
+          "id": 1787015151,
+          "name": "Hoondog Events, Inc"
+        },
+        "background_color": "FFFFFF",
+        "id": 2806790185,
+        "category": "movies,meetings",
+        "box_header_background_color": "C0BDB6",
+        "capacity": 1000,
+        "num_attendee_rows": 60,
+        "title": "Bullitt 45th Anniversary San Francisco, CA",
+        "start_date": "2013-06-20 13:00:00",
+        "status": "Live",
+        "description": "<P>Join us to celebrate the 45th anniversary of the making of Bullitt! </P>\r\n<DIV> </DIV>\r\n<DIV>Bullitt Memories Dinner Event</DIV>\r\n<DIV>Movie location tour </DIV>\r\n<DIV>Mustangs and Mopars Car Show</DIV>\r\n<DIV> </DIV>\r\n<DIV>and more! </DIV>",
+        "end_date": "2013-06-23 07:00:00",
+        "tags": "",
+        "timezone_offset": "GMT-0700",
+        "text_color": "8D0000",
+        "title_text_color": "",
+        "tickets": [
+          {
+            "ticket": {
+              "description": "",
+              "end_date": "2013-05-21 12:00:00",
+              "min": 0,
+              "max": 0,
+              "price": "31.74",
+              "visible": "true",
+              "currency": "USD",
+              "type": 0,
+              "id": 14482700,
+              "name": "Bullitt 45th Anniversary Celebration Includes car show registration "
+            }
+          },
+          {
+            "ticket": {
+              "description": "",
+              "end_date": "2013-05-21 12:00:00",
+              "min": 0,
+              "max": 0,
+              "price": "26.62",
+              "visible": "true",
+              "currency": "USD",
+              "type": 0,
+              "id": 14482702,
+              "name": "Additional Small Shirt"
+            }
+          },
+          {
+            "ticket": {
+              "description": "",
+              "end_date": "2013-05-21 12:00:00",
+              "min": 0,
+              "max": 0,
+              "price": "26.62",
+              "visible": "true",
+              "currency": "USD",
+              "type": 0,
+              "id": 14482706,
+              "name": "Additional Medium shirt"
+            }
+          },
+          {
+            "ticket": {
+              "description": "",
+              "end_date": "2013-05-21 12:00:00",
+              "min": 0,
+              "max": 0,
+              "price": "26.62",
+              "visible": "true",
+              "currency": "USD",
+              "type": 0,
+              "id": 14482708,
+              "name": "Additional Large Shirt"
+            }
+          },
+          {
+            "ticket": {
+              "description": "",
+              "end_date": "2013-05-21 12:00:00",
+              "min": 0,
+              "max": 0,
+              "price": "26.62",
+              "visible": "true",
+              "currency": "USD",
+              "type": 0,
+              "id": 14482710,
+              "name": "Additional X Large Shirt"
+            }
+          },
+          {
+            "ticket": {
+              "description": "",
+              "end_date": "2013-05-21 12:00:00",
+              "min": 0,
+              "max": 0,
+              "price": "26.62",
+              "visible": "true",
+              "currency": "USD",
+              "type": 0,
+              "id": 14482714,
+              "name": "Additional XX Large Dhirt"
+            }
+          },
+          {
+            "ticket": {
+              "description": "",
+              "end_date": "2013-05-21 12:00:00",
+              "min": 0,
+              "max": 0,
+              "price": "26.62",
+              "visible": "true",
+              "currency": "USD",
+              "type": 0,
+              "id": 14482718,
+              "name": "Additional XXX Large Shirt"
+            }
+          },
+          {
+            "ticket": {
+              "description": "",
+              "end_date": "2013-05-06 12:00:00",
+              "min": 0,
+              "max": 0,
+              "price": "16.37",
+              "visible": "true",
+              "currency": "USD",
+              "type": 0,
+              "id": 14482722,
+              "name": "Bullitt 45th Anniversary Coin "
+            }
+          },
+          {
+            "ticket": {
+              "description": "",
+              "end_date": "2013-06-20 10:00:00",
+              "min": 0,
+              "max": 0,
+              "price": "52.24",
+              "visible": "true",
+              "currency": "USD",
+              "type": 0,
+              "id": 15360268,
+              "name": "Select Car Show Parking  Boy Republic Donation (this is additional to the regular registration)"
+            }
+          }
+        ],
+        "distance": "0.00M",
+        "created": "2012-07-07 19:15:10",
+        "url": "http://bullitt45-SRCH.eventbrite.com",
+        "box_text_color": "362E2C",
+        "privacy": "Public",
+        "venue": {
+          "city": "San Francisco",
+          "name": "",
+          "country": "United States",
+          "region": "CA",
+          "longitude": -122.419416,
+          "postal_code": "",
+          "address_2": "",
+          "address": "",
+          "latitude": 37.77493,
+          "country_code": "US",
+          "id": 2153346,
+          "Lat-Long": "37.77493 / -122.419416"
+        },
+        "modified": "2013-04-24 15:15:47",
+        "repeats": "no"
+      }
+    },
+    {
+      "event": {
+        "box_header_text_color": "404040",
+        "link_color": "0f90ba",
+        "box_background_color": "ffffff",
+        "box_border_color": "dedede",
+        "timezone": "America/Los_Angeles",
+        "organizer": {
+          "url": "http://www.eventbrite.com/org/3717994043",
+          "description": "",
+          "long_description": "",
+          "id": 3717994043,
+          "name": ""
+        },
+        "background_color": "f7f7f7",
+        "id": 6445738377,
+        "category": "",
+        "box_header_background_color": "fafafa",
+        "capacity": 0,
+        "num_attendee_rows": 0,
+        "title": "California Sunset Cruise",
+        "start_date": "2013-04-25 18:00:00",
+        "status": "Live",
+        "description": "<P>On this casual two-hour cruise, passengers enjoy views of the city’s stunning sunset over the Pacific Ocean, live guitar entertainment, hearty appetizers from the buffet and a beer, wine or soda from the bar. Nestled into the warm and cozy atmosphere of Red and White Fleet’s historic ferry boats, the cruise will pass along the skyline of San Francisco with its modern skyscrapers and historic landmarks, past the infamous island of Alcatraz and cruise under the impressive San Francisco Bay Bridge and the legendary Golden Gate Bridge.<BR><BR>Cruise schedule varies during the course of the year, with daily departures in the Spring (April 1-May 21). Prices are as follows: Adults (18+) = $58; Youth (5-17) = $40; and Children under five = free.</P>",
+        "end_date": "2013-05-21 20:00:00",
+        "tags": "",
+        "timezone_offset": "GMT-0700",
+        "text_color": "404040",
+        "title_text_color": "",
+        "tickets": [
+          {
+            "ticket": {
+              "description": "",
+              "end_date": "2013-04-25 17:00:00",
+              "min": 1,
+              "max": null,
+              "price": "58.00",
+              "visible": "true",
+              "currency": "USD",
+              "type": 0,
+              "id": 18395593,
+              "name": "California Sunset Cruise Adult"
+            }
+          },
+          {
+            "ticket": {
+              "description": "",
+              "end_date": "2013-04-25 17:00:00",
+              "min": 1,
+              "max": null,
+              "price": "40.00",
+              "visible": "true",
+              "currency": "USD",
+              "type": 0,
+              "id": 18395595,
+              "name": "California Sunset Cruise Youth"
+            }
+          }
+        ],
+        "distance": "0.00M",
+        "created": "2013-04-25 08:29:34",
+        "url": "http://www.eventbrite.com/event/6445738377/SRCH",
+        "box_text_color": "666666",
+        "privacy": "Public",
+        "venue": {
+          "city": "San Francisco",
+          "name": "Pier 43 1/2",
+          "country": "United States",
+          "region": "CA",
+          "longitude": -122.419416,
+          "postal_code": "",
+          "address_2": "",
+          "address": "",
+          "latitude": 37.77493,
+          "country_code": "US",
+          "id": 3417571,
+          "Lat-Long": "37.77493 / -122.419416"
+        },
+        "modified": "2013-04-25 08:33:45",
+        "repeats": "no"
+      }
+    },
+    {
+      "event": {
+        "box_header_text_color": "005580",
+        "link_color": "EE6600",
+        "box_background_color": "FFFFFF",
+        "timezone": "America/Los_Angeles",
+        "box_border_color": "D5D5D3",
+        "logo": "http://ebmedia.eventbrite.com/s3-s3/eventlogos/8255537/2099570873-2.png",
+        "organizer": {
+          "url": "http://cse-training.eventbrite.com",
+          "description": "CSE is an international advisory and training organization that provides Sustainability Solutions to the public and private sector.\r\n \r\nT: +1 312 214 6464\r\nE: sustainability@cse-net.org\r\nwww.cse-net.org",
+          "long_description": "The Centre for Sustainability and Excellence is an international advisory and training organization that provides sustainability solutions to the public and private sector.\r\nCSE North America\r\n312-214-6464\r\nsustainability@cse-net.org\r\nwww.cse-net.org",
+          "id": 720422905,
+          "name": "Centre for Sustainability and Excellence"
+        },
+        "background_color": "FFFFFF",
+        "id": 6092162823,
+        "category": "seminars,conferences",
+        "box_header_background_color": "EFEFEF",
+        "capacity": 22,
+        "num_attendee_rows": 0,
+        "title": "Certified Carbon Strategy Practitioner - San Francisco (IEMA Approved)",
+        "start_date": "2013-09-12 09:00:00",
+        "status": "Live",
+        "description": "<P CLASS=\"indent\" STYLE=\"text-align: justify;\"><SPAN STYLE=\"font-family: arial,helvetica,sans-serif; font-size: small;\" LANG=\"EN-US\"><FONT COLOR=\"#333333\"><FONT COLOR=\"#000080\">The </FONT><STRONG><FONT COLOR=\"#000080\">Certified Carbon Strategy Practitioner training</FONT></STRONG></FONT> enables participants to acquire the knowledge necessary to design and sustain a carbon footprint strategy, manage reporting and learn the tools and techniques to create green products and services. </SPAN></P>\r\n<P CLASS=\"indent\" STYLE=\"text-align: center;\"><EM><STRONG><SPAN STYLE=\"font-family: arial,helvetica,sans-serif; font-size: small;\" LANG=\"EN-US\">Learn to improve CDP Scores, GRI Application Levels </SPAN></STRONG></EM><EM><STRONG><SPAN STYLE=\"font-family: arial,helvetica,sans-serif; font-size: small;\" LANG=\"EN-US\">towards a carbon reduction strategy!</SPAN></STRONG></EM></P>\r\n<P> </P>\r\n<P><SPAN STYLE=\"color: #000080; font-family: arial,helvetica,sans-serif;\"><STRONG><SPAN STYLE=\"font-size: medium;\">Topics Covered</SPAN></STRONG></SPAN></P>\r\n<UL>\r\n<LI><SPAN LANG=\"EN-US\">The issue of climate change and sustainable development </SPAN></LI>\r\n<LI><SPAN LANG=\"EN-US\">Understanding the carbon footprint of your business and operations </SPAN></LI>\r\n<LI><SPAN LANG=\"EN-US\">GHG emissions accounting & reporting </SPAN></LI>\r\n<LI><SPAN LANG=\"EN-US\">Carbon Regulations</SPAN></LI>\r\n<LI><SPAN LANG=\"EN-US\">The importance of water footprint</SPAN></LI>\r\n<LI><SPAN LANG=\"EN-US\">Tools for measuring the GHG emissions of services and products and their impact on your organization </SPAN></LI>\r\n<LI><SPAN LANG=\"EN-US\">Carbon Footprint Strategy and Energy Efficiency</SPAN></LI>\r\n<LI><SPAN LANG=\"EN-US\">Product Life Cycle Analysis (LCA) and measuring standards</SPAN></LI>\r\n<LI><SPAN LANG=\"EN-US\">Creation of Carbon Neutral services and products </SPAN></LI>\r\n<LI><SPAN LANG=\"EN-US\">Carbon Offsetting</SPAN></LI>\r\n<LI><SPAN LANG=\"EN-US\">Best practices for measuring carbon footprint</SPAN></LI>\r\n<LI><SPAN LANG=\"EN-US\">Updated case studies from companies including <EM><STRONG>Walmart, Apple, and IKEA</STRONG></EM></SPAN></LI>\r\n</UL>\r\n<P CLASS=\"MsoNormal\"><SPAN LANG=\"EN-US\">The</SPAN><STRONG><SPAN LANG=\"EN-GB\"> Certified Carbon Strategy Practitioner<EM> </EM></SPAN></STRONG><SPAN LANG=\"EN-GB\">training </SPAN><SPAN LANG=\"EN-GB\">is approved by the Institute for Environmental Management & Assessment (IEMA)<STRONG>, </STRONG>a leading environmental not-for-profit organization based in the U.K. The training delivers <STRONG>extensive and specialised knowledge for managers dealing with environmental and climate change issues.</STRONG></SPAN></P>\r\n<P CLASS=\"MsoNormal\"> </P>\r\n<P CLASS=\"MsoNormal\"><SPAN STYLE=\"color: #000080; font-size: medium;\"><STRONG><SPAN LANG=\"EN-US\">Who Should Attend</SPAN></STRONG></SPAN></P>\r\n<P CLASS=\"MsoNormal\"><SPAN LANG=\"EN-US\">The course is designed for the needs of General Managers, Environmental Managers, PR and Communication Managers, Marketing Managers, and Sustainability professionals who have so far achieved a level of knowledge on environmental andclimate change issues and wish to learn moreon ways they can implement a robust Carbon Strategy.</SPAN></P>\r\n<P CLASS=\"MsoNormal\"><SPAN LANG=\"EN-US\">In a world rapidly warming up and as a response to legal and social pressures, businesses need to adopt innovative and cost-effective ways to limit their adverse effects regarding climate change. </SPAN></P>\r\n<P CLASS=\"MsoNormal\"><SPAN LANG=\"EN-US\">Climate change is becoming an ever-pressing matter, with its mitigation becoming increasingly demanded by all members of society, including businesses.</SPAN></P>\r\n<P CLASS=\"MsoNormal\"> </P>\r\n<P CLASS=\"MsoNormal\"><SPAN STYLE=\"color: #000080; font-family: arial,helvetica,sans-serif; font-size: medium;\"><STRONG>Key Modules</STRONG></SPAN></P>\r\n<P>MODULE 1: Introduction to Climate Change and GHG Emissions<BR> MODULE 2: Carbon Regulations<BR> MODULE 3: Sustainability Strategy & GHG Emissions<BR> MODULE 4: Energy Efficiency and Carbon Footprint<BR> MODULE 5: GHG Accounting and Assessment<BR> MODULE 6: Life Cycle Assessment (LCA) for Carbon Footprint & Water Footprint <BR> MODULE 7: GHG Offsetting and Related Standards<BR> MODULE 8: Reporting</P>\r\n<P>EXERCISE: Action Plan for Your Organization (pre-requisite for becoming a certified CSR/Sustainability Practitioner)</P>\r\n<P> </P>\r\n<P CLASS=\"MsoNormal\"><SPAN STYLE=\"color: #000080; font-family: arial,helvetica,sans-serif; font-size: medium;\"><STRONG>Special Offer</STRONG></SPAN></P>\r\n<P><STRONG>**Particpants who register for Option B of the Certified Carbon Strategy Practitioner Training will be provided with CSE's GHG Emissions Verification Questionnaire based on the Greenhouse Gas Protocol - Scope 1, 2, and 3 emissions. All participants can use this questionnaire to evaluate the GHG emissions of one of their organization's facilities.</STRONG></P>\r\n<P CLASS=\"MsoNormal\" STYLE=\"margin: 0cm 0cm 0pt;\"><EM></EM> </P>\r\n<P CLASS=\"MsoNormal\" STYLE=\"margin: 0cm 0cm 0pt;\"><EM><SPAN STYLE=\"font-family: arial,helvetica,sans-serif; font-size: small;\"><SPAN STYLE=\"color: #002060;\"><FONT COLOR=\"#333333\"><SPAN STYLE=\"font-family: arial,helvetica,sans-serif; font-size: small;\"><FONT COLOR=\"#333333\"><FONT COLOR=\"#000080\"><STRONG><FONT COLOR=\"#000080\">CSE North America</FONT> </STRONG><FONT COLOR=\"#333333\">is based in Chicago with global headquarters in Europe. CSE is a global advisory and training organization that provides Sustainability Solutions to the public and private sector. As an international network of specialists and consultants, CSE provides organizations, governments, and institutions unique and advanced services to achieve Stakeholder Value across Operational and Organizational frameworks.</FONT></FONT></FONT></SPAN></FONT></SPAN></SPAN></EM></P>\r\n<P CLASS=\"MsoNormal\" STYLE=\"margin: 0cm 0cm 0pt;\"><SPAN STYLE=\"font-family: arial,helvetica,sans-serif; font-size: small;\"><EM><SPAN STYLE=\"color: #002060;\"><FONT COLOR=\"#333333\">As an Approved Training Provider under the Institute of Environmental Management and Assessment, CSE offers intensive learning opportunities for professionals across sectors and industries on Corporate Social Responsibility and Sustainability - strategy, design, management, communication.</FONT></SPAN></EM></SPAN></P>\r\n<P> </P>\r\n<P CLASS=\"MsoNormal\"><SPAN STYLE=\"color: #000080; font-family: arial,helvetica,sans-serif; font-size: medium;\"><STRONG>Media Partners</STRONG></SPAN></P>\r\n<P CLASS=\"MsoNormal\"><SPAN STYLE=\"color: #000080; font-family: arial,helvetica,sans-serif; font-size: medium;\"><STRONG><A HREF=\"http://www.csrwire.com/\" TARGET=\"_blank\"><IMG SRC=\"https://evbdn.eventbrite.com/s3-s3/eventlogos/8255537/csrwirelogohires.jpg\" ALT=\"CSRwire_logo\" WIDTH=\"182\" HEIGHT=\"55\"></A> <A HREF=\"http://www.croassociation.org/\" TARGET=\"_blank\"><IMG SRC=\"https://evbdn.eventbrite.com/s3-s3/eventlogos/8255537/croalogo.jpg\" ALT=\"CROA_logo\" WIDTH=\"156\" HEIGHT=\"58\"></A> <A HREF=\"http://www.csrhub.com/\" TARGET=\"_blank\"><IMG SRC=\"https://evbdn.eventbrite.com/s3-s3/eventlogos/8255537/csrhublogo.jpg\" ALT=\"CSRhub_logo\" WIDTH=\"182\" HEIGHT=\"70\"></A></STRONG></SPAN></P>\r\n<P> </P>\r\n<P> <SPAN STYLE=\"font-family: arial,helvetica,sans-serif; font-size: medium;\"><STRONG><SPAN STYLE=\"color: #333333; mso-fareast-font-family: Times New Roman; mso-fareast-language: ZH-TW;\"><SPAN STYLE=\"color: #000066;\">Green Event Policy</SPAN></SPAN></STRONG></SPAN><BR><SPAN STYLE=\"font-family: arial,helvetica,sans-serif; font-size: small;\"><SPAN STYLE=\"color: #333333; line-height: 115%; mso-ansi-language: EN-US;\">As part of our sustainability policy (since 2007), we calculate and offset the carbon footprint of all CSE events, including the travel of our attendees. Additionally, CSE is among the first firms in its sector to have published a Sustainability Report (since 2008). A prime example of 'walking the talk'.</SPAN></SPAN></P>\r\n<P><BR><SPAN STYLE=\"font-size: medium; color: #000080;\"><STRONG>Virtual Sustainability (CSR) Office and Coaching for the attendees</STRONG></SPAN><BR>(Get advantage of our specialized coaching  packages and save money)</P>\r\n<P><SPAN STYLE=\"font-family: arial,helvetica,sans-serif;\"><SPAN STYLE=\"font-size: 10pt;\"><SPAN STYLE=\"font-size: 10pt;\"><FONT COLOR=\"#333333\"><IMG SRC=\"https://evbdn.eventbrite.com/s3-s3/eventlogos/8255537/shutterstock96932096.jpg\" ALT=\"\" WIDTH=\"82\" HEIGHT=\"123\"></FONT></SPAN></SPAN></SPAN></P>\r\n<P><SPAN STYLE=\"font-family: arial,helvetica,sans-serif;\"><SPAN STYLE=\"font-size: 10pt;\"><SPAN STYLE=\"font-size: 10pt;\"><FONT COLOR=\"#333333\">Whether you are an experienced sustainability practitioner requiring support to audit, develop and align your global supply chain, or new to the field and in the beginning stages of implementation – CSE has solutions tailored to fit your needs with 3 coaching packages for achieving Sustainability (CSR)  improvements<BR><A HREF=\"https://evbdn.eventbrite.com/s3-s3/eventlogos/8255537/csesustainabilityvirtualofficepackages2012.pdf\">See more </A></FONT></SPAN></SPAN></SPAN></P>\r\n<P> </P>\r\n<P><SPAN STYLE=\"font-family: Arial,sans-serif; font-size: 10pt;\"><SPAN STYLE=\"font-family: Arial,sans-serif; font-size: 10pt;\"><FONT COLOR=\"#333333\"><BR></FONT></SPAN></SPAN><EM><SPAN STYLE=\"font-family: Arial,sans-serif; color: navy; font-size: 7.5pt;\" LANG=\"EN-US\"><FONT COLOR=\"#333333\"><A HREF=\"http://www.cse-net.org/contents.aspx?catid=490\" TARGET=\"_blank\">© Centre for Sustainability and Excellence 2013</A></FONT></SPAN></EM></P>",
+        "end_date": "2013-09-13 16:30:00",
+        "tags": "Sustainability, Strategy, CSR, Environmental, Atlanta, Carbon, Reporting, Emissions, GHG",
+        "timezone_offset": "GMT-0700",
+        "text_color": "005580",
+        "title_text_color": "",
+        "tickets": [
+          {
+            "ticket": {
+              "description": "",
+              "end_date": "2013-09-11 21:00:00",
+              "min": 1,
+              "max": 0,
+              "price": "1,704.95",
+              "visible": "true",
+              "start_date": "2013-04-04 01:00:00",
+              "currency": "USD",
+              "type": 0,
+              "id": 17976933,
+              "name": "Professional "
+            }
+          },
+          {
+            "ticket": {
+              "description": "",
+              "end_date": "2013-08-12 23:55:00",
+              "min": 0,
+              "max": 0,
+              "price": "1,534.95",
+              "visible": "true",
+              "start_date": "2013-03-01 01:00:00",
+              "currency": "USD",
+              "type": 0,
+              "id": 17976935,
+              "name": "Early Bird"
+            }
+          },
+          {
+            "ticket": {
+              "description": "",
+              "end_date": "2013-09-11 21:00:00",
+              "min": 0,
+              "max": 0,
+              "price": "1,359.95",
+              "visible": "true",
+              "start_date": "2013-03-01 01:00:00",
+              "currency": "USD",
+              "type": 0,
+              "id": 17976937,
+              "name": "NGOs, Academia, Government"
+            }
+          },
+          {
+            "ticket": {
+              "description": "",
+              "end_date": "2013-03-08 06:00:00",
+              "min": 0,
+              "max": 0,
+              "price": "5,674.95",
+              "visible": "false",
+              "currency": "USD",
+              "type": 0,
+              "id": 17976939,
+              "name": "Virtual Sustainability (CSR) Office – Package A (Optional Coaching ) "
+            }
+          },
+          {
+            "ticket": {
+              "description": "",
+              "end_date": "2013-03-08 06:00:00",
+              "min": 0,
+              "max": 0,
+              "price": "17,519.95",
+              "visible": "false",
+              "currency": "USD",
+              "type": 0,
+              "id": 17976941,
+              "name": "Virtual Sustainability (CSR) Office – Package B (Optional Coaching ) "
+            }
+          }
+        ],
+        "distance": "0.00M",
+        "created": "2013-04-01 12:01:49",
+        "url": "http://sf2013carbon-SRCH.eventbrite.com",
+        "box_text_color": "000000",
+        "privacy": "Public",
+        "venue": {
+          "city": "San Francisco",
+          "name": "TBA",
+          "country": "United States",
+          "region": "CA",
+          "longitude": -122.419416,
+          "postal_code": "",
+          "address_2": "",
+          "address": "",
+          "latitude": 37.77493,
+          "country_code": "US",
+          "id": 657935,
+          "Lat-Long": "37.77493 / -122.419416"
+        },
+        "modified": "2013-04-11 10:59:18",
+        "logo_ssl": "https://ebmedia.eventbrite.com/s3-s3/eventlogos/8255537/2099570873-2.png",
+        "repeats": "no"
+      }
+    },
+    {
+      "event": {
+        "box_header_text_color": "005580",
+        "link_color": "EE6600",
+        "box_background_color": "FFFFFF",
+        "timezone": "America/Los_Angeles",
+        "box_border_color": "D5D5D3",
+        "logo": "http://ebmedia.eventbrite.com/s3-s3/eventlogos/3642605/5396196168-1.jpg",
+        "organizer": {
+          "url": "http://www.eventbrite.com/org/2530262718",
+          "description": "The Center for Healthcare Innovation (CHI) is a 501(c)(3) non-profit, independent research center committed to stimulating people, groups, and institutions to achieve excellence and innovation in the global life sciences industries, primarily biotechnology, medical devices, and pharmaceuticals. We aim to be the world’s #1 source of rigorous, objective thought-leadership and solutions for the global life science ecosystem.  Our core areas of focus include:\r\n\r\nLowering the cost of drug discovery, development, and deployment\r\nMaking the clinical trial process more effective and efficient\r\nOptimizing the interface between providers, payers, and pharmaceuticals\r\nLeveraging data analytics to improve performance of the healthcare and life science industries\r\nEducating life science and healthcare leaders regarding cutting-edge ideas and practices\r\n",
+          "long_description": "The Center for Healthcare Innovation (CHI) is a non-profit research center committed to stimulating people, groups, and institutions to achieve excellence and innovation in the global life sciences industries, primarily biotechnology, medical devices, and pharmaceuticals. We aim to be the worlds #1 source of rigorous, objective thought-leadership and solutions for the global life science ecosystem.  Our core areas of focus include:\r\n\r\nLowering the cost of drug discovery, development, and deployment\r\nMaking the clinical trial process more effective and efficient\r\nOptimizing the interface between providers, payers, and pharmaceuticals\r\nLeveraging data analytics to improve performance of the healthcare and life science industries\r\nEducating life science and healthcare leaders regarding cutting-edge ideas and practices\r\n",
+          "id": 2530262718,
+          "name": "Center for Healthcare Innovation"
+        },
+        "background_color": "FFFFFF",
+        "id": 5396196168,
+        "category": "conferences,sales",
+        "box_header_background_color": "EFEFEF",
+        "capacity": 0,
+        "num_attendee_rows": 7,
+        "title": "China, India, & U.S. Life Science Markets Symposium",
+        "start_date": "2013-10-24 08:00:00",
+        "status": "Live",
+        "description": "<P>Please visit <SPAN STYLE=\"text-decoration: underline;\"><A HREF=\"http://www.chisite.org/events/chinaIndiaUsSymposium\">chisite.org/events/chinaIndiaUsSymposium</A></SPAN> for detailed information</P>",
+        "end_date": "2013-10-24 18:30:00",
+        "tags": "Life Sciences, Pharmaceuticals, biotech, biotechnology, medical device, China, India",
+        "timezone_offset": "GMT-0700",
+        "text_color": "005580",
+        "title_text_color": "",
+        "tickets": [
+          {
+            "ticket": {
+              "description": "",
+              "end_date": "2013-10-24 08:00:00",
+              "min": 1,
+              "max": 99,
+              "price": "0.00",
+              "visible": "false",
+              "currency": "USD",
+              "type": 0,
+              "id": 16964488,
+              "name": "Complimentary"
+            }
+          },
+          {
+            "ticket": {
+              "description": "",
+              "end_date": "2013-10-24 08:00:00",
+              "min": 1,
+              "max": 99,
+              "price": "495.00",
+              "visible": "true",
+              "start_date": "2013-09-24 01:00:00",
+              "currency": "USD",
+              "type": 0,
+              "id": 17776761,
+              "name": "Regular"
+            }
+          },
+          {
+            "ticket": {
+              "description": "",
+              "end_date": "2013-10-24 08:00:00",
+              "min": 2,
+              "max": 99,
+              "price": "445.00",
+              "visible": "true",
+              "start_date": "2013-09-24 01:00:00",
+              "currency": "USD",
+              "type": 0,
+              "id": 17800187,
+              "name": "Group (2 or more) Discount"
+            }
+          },
+          {
+            "ticket": {
+              "description": "",
+              "end_date": "2013-09-24 01:00:00",
+              "min": 0,
+              "max": 0,
+              "price": "445.00",
+              "visible": "true",
+              "currency": "USD",
+              "type": 0,
+              "id": 17776801,
+              "name": "Early Registration Discount"
+            }
+          },
+          {
+            "ticket": {
+              "description": "",
+              "end_date": "2013-09-24 01:00:00",
+              "min": 2,
+              "max": 99,
+              "price": "395.00",
+              "visible": "true",
+              "currency": "USD",
+              "type": 0,
+              "id": 17776885,
+              "name": "Group (2 or more) & Early Registration Discount"
+            }
+          }
+        ],
+        "distance": "0.00M",
+        "created": "2013-01-31 07:05:59",
+        "url": "http://chinaindiauslifesciencemarkets-SRCH.eventbrite.com",
+        "box_text_color": "000000",
+        "privacy": "Public",
+        "venue": {
+          "city": "San Francisco",
+          "name": "",
+          "country": "United States",
+          "region": "CA",
+          "longitude": -122.419416,
+          "postal_code": "",
+          "address_2": "",
+          "address": "",
+          "latitude": 37.77493,
+          "country_code": "US",
+          "id": 2934652,
+          "Lat-Long": "37.77493 / -122.419416"
+        },
+        "modified": "2013-03-20 12:05:34",
+        "logo_ssl": "https://ebmedia.eventbrite.com/s3-s3/eventlogos/3642605/5396196168-1.jpg",
+        "repeats": "no"
+      }
+    },
+    {
+      "event": {
+        "box_header_text_color": "505050",
+        "link_color": "FE7804",
+        "box_background_color": "FFFFFF",
+        "box_border_color": "D5D5D3",
+        "timezone": "America/Los_Angeles",
+        "organizer": {
+          "url": "http://www.eventbrite.com/org/2745603626",
+          "description": "The Commonwealth Club of California is the nation's oldest and largest public affairs forum. We bring over 400 annual events on topics ranging across politics, culture, society and the economy to 15,000 members.",
+          "long_description": "The Commonwealth Club of California is the nation's oldest and largest public affairs forum. We bring over 400 annual events on topics ranging across politics, culture, society and the economy to 15,000 members.\r\nThe Club has offices in San Francisco and San Jose, with regular events in both cities, as well as programs in Lafayette in the East Bay.\r\nFor members outside the Bay Area, the Club's weekly radio broadcastthe oldest in the U.S., dating back to 1924is carried across the nation on public and commercial radio stations. Our website archive features audio and video of our recent programs, as well as selected speeches from our long and distinguished history.\r\nOur Mission\r\nThe mission of The Commonwealth Club of California is to be the leading national forum open to all for the impartial discussion of public issues important to the membership, community and nation.\r\nOur Speakers\r\nFounded in 1903, The Commonwealth Club has played host to a diverse and distinctive array of speakers, from Teddy Roosevelt in 1911 to House Speaker Nancy Pelosi, California Governor Arnold Schwarzenegger, actor Alec Baldwin and author Christopher Hitchens in recent years. Martin Luther King, Jr., Ronald Reagan, Bill Clinton and Bill Gates have all given landmark speeches at The Club.\r\nOur Supporters\r\nAs a nonprofit, nonpartisan educational organization, The Commonwealth Club relies on the support of its membership, the Business Council and foundation grants to continue its role in fostering open public discussion in the San Francisco Bay Area and throughout the nation via radio, Internet and television.\r\nThe Commonwealth Club has many exciting ventures planned for the future. You can help!",
+          "id": 2745603626,
+          "name": "The Commonwealth Club"
+        },
+        "background_color": "eeeeee",
+        "id": 6113316093,
+        "category": "",
+        "box_header_background_color": "eeeeee",
+        "capacity": 14,
+        "num_attendee_rows": 3,
+        "title": "Chinatown Walking Tour #14",
+        "start_date": "2013-08-08 13:45:00",
+        "status": "Live",
+        "description": "<P STYLE=\"margin: 1em 0px; padding: 0px; border: 0px; font-size: 13px; vertical-align: baseline; line-height: 20px; font-family: 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;\"><STRONG STYLE=\"margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; line-height: inherit;\">Chinatown Walking Tour</STRONG></P>\r\n<P STYLE=\"margin: 1em 0px; padding: 0px; border: 0px; font-size: 13px; vertical-align: baseline; line-height: 20px; font-family: 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;\"><STRONG STYLE=\"margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; line-height: inherit;\"><IMG STYLE=\"float: right; margin: 6px;\" SRC=\"http://www.commonwealthclub.org/sites/default/files/imagecache/inline_medium_200w/images/events/20110622-chinatown-by-h-sanchez-m_11.jpg\" ALT=\"\" WIDTH=\"150\" HEIGHT=\"190\"></STRONG></P>\r\n<P STYLE=\"margin: 1em 0px; padding: 0px; border: 0px; font-size: 13px; vertical-align: baseline; line-height: 20px; font-family: 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;\">Enjoy a Commonwealth Club Neighborhood Adventure. Join Rick Evans for a memorable midday walk and discover the history and mysteries of Chinatown. Explore colorful alleys and side streets. Visit a Taoist temple, an herbal store, the site of the first public school in the state, and the famous Fortune Cookie Factory. There is a short break for a tea sample during the tour.</P>\r\n<P STYLE=\"margin: 1em 0px; padding: 0px; border: 0px; font-size: 13px; vertical-align: baseline; line-height: 20px; font-family: 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;\"><STRONG STYLE=\"margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; line-height: inherit;\">Location</STRONG>: Meet at corner of Grant and Bush, in front of Starbucks, near Chinatown Gate<BR><STRONG STYLE=\"margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; line-height: inherit;\">Time:</STRONG> 1:45 p.m. check-in<STRONG STYLE=\"margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; line-height: inherit;\">, 2–5 p.m. tour</STRONG><BR><STRONG STYLE=\"margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; line-height: inherit;\">Cost:</STRONG> $45 non-members,<STRONG STYLE=\"margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; line-height: inherit;\"> $35 members<BR>Also know:</STRONG> Temple visit requires walking up three flights of stairs. Limited to 12 people. Participants must pre-register. Tour operates rain or shine. Photo by H Sanchez/Flickr.</P>\r\n<P> </P>\r\n<P><SPAN STYLE=\"font-family: arial black,avant garde; font-size: small;\"><STRONG>What is the refund policy?</STRONG></SPAN></P>\r\n<P><SPAN STYLE=\"font-family: arial black,avant garde; font-size: small;\">All ticket sales are final. We do not offer refunds.</SPAN></P>\r\n<P> </P>",
+        "end_date": "2013-08-08 17:00:00",
+        "tags": "",
+        "timezone_offset": "GMT-0700",
+        "text_color": "00467F",
+        "title_text_color": "",
+        "tickets": [
+          {
+            "ticket": {
+              "description": "Not a member yet? \r\n<a href=\"https://support.commonwealthclub.org/sslpage.aspx?pid=370\" target=\"_blank\" style=\"color:#005580\">Join now</a> and get discounted tickets plus save on ticketing fees!\r\n",
+              "end_date": "2013-08-08 12:45:00",
+              "min": 1,
+              "max": 30,
+              "price": "47.12",
+              "visible": "true",
+              "currency": "USD",
+              "type": 0,
+              "id": 18004385,
+              "name": "General Admission- Non-Member"
+            }
+          },
+          {
+            "ticket": {
+              "description": "",
+              "end_date": "2013-08-08 12:45:00",
+              "min": 1,
+              "max": 2,
+              "price": "35.00",
+              "visible": "true",
+              "currency": "USD",
+              "type": 0,
+              "id": 18004387,
+              "name": "General Admission- Member"
+            }
+          },
+          {
+            "ticket": {
+              "description": "",
+              "end_date": "2013-08-08 12:45:00",
+              "min": 1,
+              "max": null,
+              "price": "0.00",
+              "visible": "false",
+              "currency": "USD",
+              "type": 0,
+              "id": 18004481,
+              "name": "General Admission Comp"
+            }
+          }
+        ],
+        "distance": "0.00M",
+        "created": "2013-04-02 16:14:38",
+        "url": "http://www.eventbrite.com/event/6113316093/SRCH",
+        "box_text_color": "000000",
+        "privacy": "Public",
+        "venue": {
+          "city": "San Francisco",
+          "name": "",
+          "country": "United States",
+          "region": "CA",
+          "longitude": -122.419416,
+          "postal_code": "",
+          "address_2": "",
+          "address": "",
+          "latitude": 37.77493,
+          "country_code": "US",
+          "id": 3173771,
+          "Lat-Long": "37.77493 / -122.419416"
+        },
+        "modified": "2013-04-24 12:12:13",
+        "repeat_schedule": "daily-mf-12\/31\/2013",
+        "repeats": "yes"
+      }
+    }
+  ]
+}

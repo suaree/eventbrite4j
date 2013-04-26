@@ -1,0 +1,6 @@
+{
+  "error": {
+    "error_type": "Distance error",
+    "error_message": "Distance (integer) is invalid [ 10.0 ]"
+  }
+}
