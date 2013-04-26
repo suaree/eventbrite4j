@@ -1,0 +1,127 @@
+{
+  "event": {
+    "box_header_text_color": "005580",
+    "link_color": "EE6600",
+    "box_background_color": "FFFFFF",
+    "timezone": "America\/Los_Angeles",
+    "box_border_color": "D5D5D3",
+    "logo": "http:\/\/ebmedia.eventbrite.com\/s3-s3\/eventlogos\/3642605\/5396196168-1.jpg",
+    "organizer": {
+      "url": "http:\/\/www.eventbrite.com\/org\/2530262718",
+      "description": "The Center for Healthcare Innovation (CHI) is a 501(c)(3) non-profit, independent research center committed to stimulating people, groups, and institutions to achieve excellence and innovation in the global life sciences industries, primarily biotechnology, medical devices, and pharmaceuticals. We aim to be the world\u2019s #1 source of rigorous, objective thought-leadership and solutions for the global life science ecosystem. \u00a0Our core areas of focus include:\r\n\r\nLowering the cost of drug discovery, development, and deployment\r\nMaking the clinical trial process more effective and efficient\r\nOptimizing the interface between providers, payers, and pharmaceuticals\r\nLeveraging data analytics to improve performance of the healthcare and life science industries\r\nEducating life science and healthcare leaders regarding cutting-edge ideas and practices\r\n",
+      "long_description": "The Center for Healthcare Innovation (CHI) is a non-profit research center committed to stimulating people, groups, and institutions to achieve excellence and innovation in the global life sciences industries, primarily biotechnology, medical devices, and pharmaceuticals. We aim to be the worlds #1 source of rigorous, objective thought-leadership and solutions for the global life science ecosystem.  Our core areas of focus include:\r\n\r\nLowering the cost of drug discovery, development, and deployment\r\nMaking the clinical trial process more effective and efficient\r\nOptimizing the interface between providers, payers, and pharmaceuticals\r\nLeveraging data analytics to improve performance of the healthcare and life science industries\r\nEducating life science and healthcare leaders regarding cutting-edge ideas and practices\r\n",
+      "id": 2530262718,
+      "name": "Center for Healthcare Innovation"
+    },
+    "background_color": "FFFFFF",
+    "id": 5396196168,
+    "category": "conferences,sales",
+    "box_header_background_color": "EFEFEF",
+    "capacity": 0,
+    "num_attendee_rows": 7,
+    "title": "China, India, & U.S. Life Science Markets Symposium",
+    "start_date": "2013-10-24 08:00:00",
+    "status": "Live",
+    "description": "<P>Please visit <SPAN STYLE=\"text-decoration: underline;\"><A HREF=\"http:\/\/www.chisite.org\/events\/chinaIndiaUsSymposium\">chisite.org\/events\/chinaIndiaUsSymposium<\/A><\/SPAN>\u00a0for detailed information<\/P>",
+    "end_date": "2013-10-24 18:30:00",
+    "tags": "Life Sciences, Pharmaceuticals, biotech, biotechnology, medical device, China, India",
+    "timezone_offset": "GMT-0700",
+    "text_color": "005580",
+    "title_text_color": "",
+    "tickets": [
+      {
+        "ticket": {
+          "description": "",
+          "end_date": "2013-10-24 08:00:00",
+          "min": 1,
+          "max": 99,
+          "price": "0.00",
+          "visible": "false",
+          "currency": "USD",
+          "type": 0,
+          "id": 16964488,
+          "name": "Complimentary"
+        }
+      },
+      {
+        "ticket": {
+          "description": "",
+          "end_date": "2013-10-24 08:00:00",
+          "min": 1,
+          "max": 99,
+          "price": "495.00",
+          "visible": "true",
+          "start_date": "2013-09-24 01:00:00",
+          "currency": "USD",
+          "type": 0,
+          "id": 17776761,
+          "name": "Regular"
+        }
+      },
+      {
+        "ticket": {
+          "description": "",
+          "end_date": "2013-10-24 08:00:00",
+          "min": 2,
+          "max": 99,
+          "price": "445.00",
+          "visible": "true",
+          "start_date": "2013-09-24 01:00:00",
+          "currency": "USD",
+          "type": 0,
+          "id": 17800187,
+          "name": "Group (2 or more) Discount"
+        }
+      },
+      {
+        "ticket": {
+          "description": "",
+          "end_date": "2013-09-24 01:00:00",
+          "min": 0,
+          "max": 0,
+          "price": "445.00",
+          "visible": "true",
+          "currency": "USD",
+          "type": 0,
+          "id": 17776801,
+          "name": "Early Registration Discount"
+        }
+      },
+      {
+        "ticket": {
+          "description": "",
+          "end_date": "2013-09-24 01:00:00",
+          "min": 2,
+          "max": 99,
+          "price": "395.00",
+          "visible": "true",
+          "currency": "USD",
+          "type": 0,
+          "id": 17776885,
+          "name": "Group (2 or more) & Early Registration Discount"
+        }
+      }
+    ],
+    "created": "2013-01-31 07:05:59",
+    "url": "http:\/\/chinaindiauslifesciencemarkets.eventbrite.com",
+    "box_text_color": "000000",
+    "privacy": "Public",
+    "venue": {
+      "city": "San Francisco",
+      "name": "",
+      "country": "United States",
+      "region": "CA",
+      "longitude": -122.419416,
+      "postal_code": "",
+      "address_2": "",
+      "address": "",
+      "latitude": 37.77493,
+      "country_code": "US",
+      "id": 2934652,
+      "Lat-Long": "37.77493 \/ -122.419416"
+    },
+    "modified": "2013-03-20 12:05:34",
+    "logo_ssl": "https:\/\/ebmedia.eventbrite.com\/s3-s3\/eventlogos\/3642605\/5396196168-1.jpg",
+    "repeats": "no"
+  }
+}

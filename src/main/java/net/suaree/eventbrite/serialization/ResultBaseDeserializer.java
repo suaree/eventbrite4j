@@ -2,6 +2,7 @@ package net.suaree.eventbrite.serialization;
 
 import com.google.gson.*;
 import net.suaree.eventbrite.model.ErrorResult;
+import net.suaree.eventbrite.model.EventResult;
 import net.suaree.eventbrite.model.EventsResult;
 import net.suaree.eventbrite.model.ResultBase;
 import org.apache.commons.logging.Log;
@@ -27,6 +28,8 @@ public class ResultBaseDeserializer implements JsonDeserializer<ResultBase> {
         for (Map.Entry<String, JsonElement> member : jsonObject.entrySet()) {
             if ("error".equals(member.getKey())) {
                 return jsonDeserializationContext.deserialize(member.getValue(), ErrorResult.class);
+            } else if ("event".equals(member.getKey())) {
+                return jsonDeserializationContext.deserialize(jsonElement, EventResult.class);
             } else if ("events".equals(member.getKey())) {
                 return jsonDeserializationContext.deserialize(jsonElement, EventsResult.class);
             } else {

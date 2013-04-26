@@ -87,6 +87,19 @@ public class EventbriteClient {
     }
 
     /**
+     * Gets the event described by the GetEventRequest using the Eventbrite event_get API.
+     *
+     * @param request The parameters for the get request.
+     * @return An instance of EventResult that describes the result of the event_get API call.
+     * @throws RequestException
+     */
+    public EventResult get(GetEventRequest request) throws RequestException {
+        ResultBase result = sendRequest(request);
+
+        return (EventResult) result;
+    }
+
+    /**
      * Sends the given request to the service and returns the resulting HttpResponse.
      *
      * @param request The RequestBase that describes the request to send to the service.
@@ -116,10 +129,12 @@ public class EventbriteClient {
                 }
             }
 
+            reader = new InputStreamReader(in);
+
             if (log.isTraceEnabled()) {
-                reader = new LoggingInputStreamReader(new BufferedReader(new InputStreamReader(in)));
-            } else {
-                reader = new InputStreamReader(in);
+                // If tracing is enabled for this class, wrap the InputStreamReader in a LoggingInputStreamReader so we
+                // can log the request body.
+                reader = new LoggingInputStreamReader(new BufferedReader(reader));
             }
 
             ResultBase result = gson.fromJson(reader, ResultBase.class);
