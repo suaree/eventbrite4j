@@ -6,6 +6,8 @@ import net.suaree.eventbrite.model.*;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.List;
+
 /**
  * Unit Tests for the EventbriteClient.get wrapper of event_get.
  *
@@ -49,6 +51,12 @@ public class GetTest {
         Assert.assertEquals(new Long(5396196168L), event.getId());
         Assert.assertEquals("http://chinaindiauslifesciencemarkets.eventbrite.com", event.getUrl());
         Assert.assertFalse(event.getRepeats().getBooleanValue());
+
+        List<Category> categories = event.getCategories();
+        Assert.assertNotNull(categories);
+        Assert.assertEquals(2, categories.size());
+        Assert.assertTrue(categories.contains(Category.Conferences));
+        Assert.assertTrue(categories.contains(Category.Sales));
 
         Venue venue = event.getVenue();
         Assert.assertNotNull(venue);

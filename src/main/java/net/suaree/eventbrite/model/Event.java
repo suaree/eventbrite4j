@@ -2,6 +2,7 @@ package net.suaree.eventbrite.model;
 
 import com.google.gson.annotations.SerializedName;
 import com.google.gson.reflect.TypeToken;
+import net.suaree.eventbrite.serialization.ConversionHelper;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
@@ -10,6 +11,7 @@ import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.List;
 import java.util.TimeZone;
 
 /**
@@ -23,6 +25,11 @@ public class Event extends EventData {
     private static final DateFormat DateTimeFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
     private Long id;
+
+    @SerializedName("category")
+    private String categoriesRaw;
+
+    private List<Category> categories;
 
     private String title;
 
@@ -54,6 +61,14 @@ public class Event extends EventData {
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    public List<Category> getCategories() {
+        if (null == categories) {
+            categories = ConversionHelper.convertCommaSeparatedListToEnumList(Category.class, categoriesRaw);
+        }
+
+        return categories;
     }
 
     public String getTitle() {

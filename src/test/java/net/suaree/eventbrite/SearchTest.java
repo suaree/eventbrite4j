@@ -40,6 +40,27 @@ public final class SearchTest {
         EventbriteClient client = new EventbriteClient(credentials,
                 new ResourceBasedHttpClient("/SearchResult-10.json"));
         SearchRequest request = new SearchRequest();
+
+        request.setCity("San Francisco");
+        request.setWithin(10);
+        request.setWithinUnit(WithinUnit.Miles);
+        request.setSearchDate(new LabelSearchDate(DateLabel.Today));
+        request.setAllCategories(
+                Category.Conferences,
+                Category.Conventions,
+                Category.Entertainment,
+                Category.Fairs,
+                Category.Food,
+                Category.Music,
+                Category.Performances,
+                Category.Recreation,
+                Category.Sales,
+                Category.Seminars,
+                Category.Sports,
+                Category.Social,
+                Category.Tradeshows,
+                Category.Travel);
+
         EventsResult result = client.search(request);
 
         Assert.assertNotNull(result);

@@ -1,6 +1,7 @@
 package net.suaree.eventbrite.model;
 
 import net.suaree.eventbrite.Credentials;
+import net.suaree.eventbrite.serialization.ConversionHelper;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.utils.URIBuilder;
 import org.apache.http.message.BasicNameValuePair;
@@ -97,16 +98,6 @@ public abstract class RequestBase {
      * @return A String that represents the comma-separated list of input values.
      */
     protected <T> String convertToCommaSeparatedList(T[] values) {
-        StringBuilder sb = new StringBuilder();
-
-        for (T value : values) {
-            if (0 < sb.length()) {
-                sb.append(',');
-            }
-
-            sb.append(value);
-        }
-
-        return sb.toString();
+        return ConversionHelper.convertValuesToCommaSeparatedList(values);
     }
 }
