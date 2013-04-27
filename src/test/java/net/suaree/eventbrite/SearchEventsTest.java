@@ -3,6 +3,9 @@ package net.suaree.eventbrite;
 import net.suaree.eventbrite.exception.RequestErrorException;
 import net.suaree.eventbrite.exception.RequestException;
 import net.suaree.eventbrite.model.*;
+import net.suaree.eventbrite.model.Error;
+import net.suaree.eventbrite.operations.EventsResult;
+import net.suaree.eventbrite.operations.SearchRequest;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -13,23 +16,22 @@ import java.util.List;
  *
  * @author roger
  */
-public final class SearchTest {
-    private final Credentials credentials = new Credentials("EHHWMU473LTVEO4JFY"); // Eventbrite's Test Key
-
+public final class SearchEventsTest extends TestBase {
     @Test
     public void testBasicError() {
-        EventbriteClient client = new EventbriteClient(credentials, new ResourceBasedHttpClient("/Search-Error.json"));
+        EventbriteClient client = new EventbriteClient(getCredentials(),
+                new ResourceBasedHttpClient("/Search-Error.json"));
         SearchRequest request = new SearchRequest();
 
         try {
             client.search(request);
             Assert.fail();
         } catch (RequestErrorException ex) {
-            ErrorResult result = ex.getErrorResult();
+            Error error = ex.getError();
 
-            Assert.assertNotNull(result);
-            Assert.assertEquals("Distance error", result.getErrorType());
-            Assert.assertEquals("Distance (integer) is invalid [ 10.0 ]", result.getErrorMessage());
+            Assert.assertNotNull(error);
+            Assert.assertEquals("Distance error", error.getErrorType());
+            Assert.assertEquals("Distance (integer) is invalid [ 10.0 ]", error.getErrorMessage());
         } catch (RequestException ex) {
             Assert.fail();
         }
@@ -37,7 +39,7 @@ public final class SearchTest {
 
     @Test
     public void testBasicSearch() throws RequestException {
-        EventbriteClient client = new EventbriteClient(credentials,
+        EventbriteClient client = new EventbriteClient(getCredentials(),
                 new ResourceBasedHttpClient("/SearchResult-10.json"));
         SearchRequest request = new SearchRequest();
 

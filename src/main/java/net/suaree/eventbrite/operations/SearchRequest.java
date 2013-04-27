@@ -1,5 +1,9 @@
-package net.suaree.eventbrite.model;
+package net.suaree.eventbrite.operations;
 
+import net.suaree.eventbrite.model.Category;
+import net.suaree.eventbrite.model.SearchDate;
+import net.suaree.eventbrite.model.SortBy;
+import net.suaree.eventbrite.model.WithinUnit;
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
 

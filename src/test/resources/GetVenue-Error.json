@@ -1,0 +1,6 @@
+{
+  "error": {
+    "error_type": "Venue error",
+    "error_message": "The venue ID is missing."
+  }
+}

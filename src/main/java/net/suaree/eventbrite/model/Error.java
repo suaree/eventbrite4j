@@ -3,9 +3,11 @@ package net.suaree.eventbrite.model;
 import com.google.gson.annotations.SerializedName;
 
 /**
+ * Represents an error from the Eventbrite APIs.
+ *
  * @author roger
  */
-public class ErrorResult extends ResultBase {
+public class Error {
     @SerializedName("error_type")
     private String errorType;
 

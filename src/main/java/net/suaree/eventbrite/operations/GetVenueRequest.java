@@ -1,39 +1,34 @@
-package net.suaree.eventbrite.model;
+package net.suaree.eventbrite.operations;
 
 import org.apache.http.NameValuePair;
-import org.apache.http.message.BasicNameValuePair;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Represents a request to the event_get API.
+ * Represents a request to the venue_get API.
  *
  * @author roger
  */
-public class GetEventRequest extends RequestBase {
+public class GetVenueRequest extends RequestBase {
     private Long id;
 
-    private Display[] display;
-
+    /**
+     * Gets the ID of the venue to retrieve.
+     *
+     * @return A Long representing the ID of the venue to retrieve.
+     */
     public Long getId() {
         return id;
     }
 
+    /**
+     * Sets the ID of the venue to retrieve.
+     *
+     * @param id The ID of the venue to retrieve.
+     */
     public void setId(Long id) {
         this.id = id;
-    }
-
-    public Display[] getDisplay() {
-        return display;
-    }
-
-    public void setDisplay(Display[] display) {
-        this.display = display;
-    }
-
-    public void setAllDisplay(Display... display) {
-        this.display = display;
     }
 
     /**
@@ -43,7 +38,7 @@ public class GetEventRequest extends RequestBase {
      */
     @Override
     protected String getApiName() {
-        return "event_get";
+        return "venue_get";
     }
 
     /**
@@ -57,10 +52,16 @@ public class GetEventRequest extends RequestBase {
 
         addParameter("id", id, params);
 
-        if (null != display && 0 < display.length) {
-            params.add(new BasicNameValuePair("display", convertToCommaSeparatedList(display)));
-        }
-
         return params;
+    }
+
+    /**
+     * Defines whether or not this API request requires a user_key parameter.
+     *
+     * @return Always returns true.
+     */
+    @Override
+    protected boolean requiresUserKey() {
+        return true;
     }
 }

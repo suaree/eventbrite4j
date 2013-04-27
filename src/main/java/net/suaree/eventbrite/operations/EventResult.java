@@ -1,8 +1,10 @@
-package net.suaree.eventbrite.model;
+package net.suaree.eventbrite.operations;
+
+import net.suaree.eventbrite.model.Event;
 
 /**
  * Represents the result from a request to the event_get API.
-
+ *
  * @author roger
  */
 public class EventResult extends ResultBase {

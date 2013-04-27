@@ -1,4 +1,4 @@
-package net.suaree.eventbrite.model;
+package net.suaree.eventbrite.operations;
 
 /**
  * Represents the base class for Eventbrite API results.

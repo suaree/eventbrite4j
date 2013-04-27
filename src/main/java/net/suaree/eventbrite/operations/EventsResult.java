@@ -1,4 +1,6 @@
-package net.suaree.eventbrite.model;
+package net.suaree.eventbrite.operations;
+
+import net.suaree.eventbrite.model.EventData;
 
 import java.util.List;
 

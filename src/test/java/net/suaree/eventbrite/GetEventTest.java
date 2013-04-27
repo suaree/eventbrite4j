@@ -2,7 +2,12 @@ package net.suaree.eventbrite;
 
 import net.suaree.eventbrite.exception.RequestErrorException;
 import net.suaree.eventbrite.exception.RequestException;
-import net.suaree.eventbrite.model.*;
+import net.suaree.eventbrite.model.Category;
+import net.suaree.eventbrite.model.Error;
+import net.suaree.eventbrite.model.Event;
+import net.suaree.eventbrite.model.Venue;
+import net.suaree.eventbrite.operations.EventResult;
+import net.suaree.eventbrite.operations.GetEventRequest;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -13,22 +18,22 @@ import java.util.List;
  *
  * @author roger
  */
-public class GetTest {
-    private final Credentials credentials = new Credentials("EHHWMU473LTVEO4JFY"); // Eventbrite's Test Key
-
+public class GetEventTest extends TestBase {
     @Test
     public void testBasicError() {
-        EventbriteClient client = new EventbriteClient(credentials, new ResourceBasedHttpClient("/Get-Error.json"));
+        EventbriteClient client = new EventbriteClient(getCredentials(),
+                new ResourceBasedHttpClient("/GetEvent-Error.json"));
         GetEventRequest request = new GetEventRequest();
 
         try {
             client.get(request);
+            Assert.fail();
         } catch (RequestErrorException ex) {
-            ErrorResult result = ex.getErrorResult();
+            Error error = ex.getError();
 
-            Assert.assertNotNull(result);
-            Assert.assertEquals("Not Found", result.getErrorType());
-            Assert.assertEquals("No records were found with the given parameters.", result.getErrorMessage());
+            Assert.assertNotNull(error);
+            Assert.assertEquals("Not Found", error.getErrorType());
+            Assert.assertEquals("No records were found with the given parameters.", error.getErrorMessage());
         } catch (RequestException ex) {
             Assert.fail();
         }
@@ -36,7 +41,8 @@ public class GetTest {
 
     @Test
     public void testGet() throws RequestException {
-        EventbriteClient client = new EventbriteClient(credentials, new ResourceBasedHttpClient("/Get-Ok.json"));
+        EventbriteClient client = new EventbriteClient(getCredentials(),
+                new ResourceBasedHttpClient("/GetEvent-Ok.json"));
         GetEventRequest request = new GetEventRequest();
 
         request.setId(5396196168L);

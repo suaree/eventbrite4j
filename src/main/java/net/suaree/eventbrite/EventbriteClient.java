@@ -4,7 +4,8 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import net.suaree.eventbrite.exception.RequestErrorException;
 import net.suaree.eventbrite.exception.RequestException;
-import net.suaree.eventbrite.model.*;
+import net.suaree.eventbrite.model.EventData;
+import net.suaree.eventbrite.operations.*;
 import net.suaree.eventbrite.serialization.EventSearchDataDeserializer;
 import net.suaree.eventbrite.serialization.LowercaseEnumTypeAdapterFactory;
 import net.suaree.eventbrite.serialization.ResultBaseDeserializer;
@@ -62,6 +63,14 @@ public class EventbriteClient {
      * @param httpClient  The HttpClient to use when invoking the Eventbrite APIs.
      */
     public EventbriteClient(Credentials credentials, HttpClient httpClient) {
+        if (null == credentials) {
+            throw new IllegalArgumentException("credentials");
+        }
+
+        if (null == httpClient) {
+            throw new IllegalArgumentException("httpClient");
+        }
+
         this.credentials = credentials;
         this.httpClient = httpClient;
 
@@ -97,6 +106,19 @@ public class EventbriteClient {
         ResultBase result = sendRequest(request);
 
         return (EventResult) result;
+    }
+
+    /**
+     * Gets the venue described by the GetVenueRequest using the Eventbrite venue_get API.
+     *
+     * @param request The parameters for the get request.
+     * @return An instance of VenueResult that describes the result of the venue_get API call.
+     * @throws RequestException
+     */
+    public VenueResult get(GetVenueRequest request) throws RequestException {
+        ResultBase result = sendRequest(request);
+
+        return (VenueResult) result;
     }
 
     /**
@@ -140,7 +162,7 @@ public class EventbriteClient {
             ResultBase result = gson.fromJson(reader, ResultBase.class);
 
             if (result instanceof ErrorResult) {
-                throw new RequestErrorException((ErrorResult) result);
+                throw new RequestErrorException(((ErrorResult) result).getError());
             }
 
             return result;

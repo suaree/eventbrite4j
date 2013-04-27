@@ -1,6 +1,6 @@
 package net.suaree.eventbrite.exception;
 
-import net.suaree.eventbrite.model.ErrorResult;
+import net.suaree.eventbrite.model.Error;
 
 /**
  * Represents an exception that wraps an error from the Eventbrite APIs.
@@ -8,32 +8,48 @@ import net.suaree.eventbrite.model.ErrorResult;
  * @author roger
  */
 public class RequestErrorException extends RequestException {
-    private final ErrorResult errorResult;
+    private final Error error;
 
-    public RequestErrorException(ErrorResult errorResult) {
-        if (null == errorResult) {
-            throw new IllegalArgumentException("errorResult");
+    /**
+     * Initializes a new instance of RequestErrorException, using the specified Error object.
+     *
+     * @param error The Error object describing the Eventbrite API request error.
+     */
+    public RequestErrorException(Error error) {
+        if (null == error) {
+            throw new IllegalArgumentException("error");
         }
 
-        this.errorResult = errorResult;
+        this.error = error;
     }
 
-    public RequestErrorException(Throwable cause, ErrorResult errorResult) {
+    /**
+     * Initializes a new instance of RequestErrorException, using the specified cause and error objects.
+     *
+     * @param cause The cause of the exception
+     * @param error The Error object describing the Eventbrite API request error.
+     */
+    public RequestErrorException(Throwable cause, Error error) {
         super(cause);
 
-        if (null == errorResult) {
-            throw new IllegalArgumentException("errorResult");
+        if (null == error) {
+            throw new IllegalArgumentException("error");
         }
 
-        this.errorResult = errorResult;
+        this.error = error;
     }
 
-    public ErrorResult getErrorResult() {
-        return errorResult;
+    /**
+     * Gets the Error object that describes the Eventbrite API request error.
+     *
+     * @return An Error object describing the Eventbrite API request error.
+     */
+    public Error getError() {
+        return error;
     }
 
     @Override
     public String getMessage() {
-        return String.format("%s - %s", errorResult.getErrorType(), errorResult.getErrorMessage());
+        return String.format("%s - %s", error.getErrorType(), error.getErrorMessage());
     }
 }
