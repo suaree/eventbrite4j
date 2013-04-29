@@ -13,7 +13,7 @@ public class ErrorResult extends ResultBase {
     /**
      * Gets the Error for this ErrorResult.
      *
-     * @return
+     * @return An instance of Error describing the error from the Eventbrite APIs.
      */
     public Error getError() {
         return error;

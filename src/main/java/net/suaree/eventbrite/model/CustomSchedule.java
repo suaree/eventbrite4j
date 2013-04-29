@@ -52,7 +52,7 @@ public class CustomSchedule extends RepeatSchedule {
     /**
      * Gets the ID of the custom schedule.
      *
-     * @return
+     * @return A long value that represents the ID of the custom schedule.
      */
     public long getId() {
         return id;

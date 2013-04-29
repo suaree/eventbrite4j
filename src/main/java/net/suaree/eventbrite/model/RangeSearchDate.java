@@ -14,9 +14,9 @@ public class RangeSearchDate extends SearchDate {
     private Calendar start;
     private Calendar end;
 
-    public RangeSearchDate(Calendar end, Calendar start) {
-        this.end = end;
+    public RangeSearchDate(Calendar start, Calendar end) {
         this.start = start;
+        this.end = end;
     }
 
     /**
