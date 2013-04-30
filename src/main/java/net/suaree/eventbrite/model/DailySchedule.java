@@ -69,23 +69,33 @@ public class DailySchedule extends RepeatSchedule {
     }
 
     /**
-     * Gets all dates that match this schedule.
+     * Gets up to max dates after startDate that match this schedule which started on firstDate.
      *
      * @param firstDate The first date for the schedule.
-     * @param startDate The start date for the schedule.
+     * @param startDate The start date for the schedule; only results on or after this date must be returned.
+     * @param max       The maximum number of schedule dates to return;
      * @return A List of Calendar objects representing the dates that match this schedule.
      */
     @Override
-    protected List<Calendar> getAllDates(Calendar firstDate, Calendar startDate) {
+    protected List<Calendar> getDates(Calendar firstDate, Calendar startDate, int max) {
+        assert 0 < max;
+
         ArrayList<Calendar> result = new ArrayList<Calendar>();
-        Calendar current = startDate;
+        Calendar current = Calendar.getInstance(getTimeZone());
         Calendar tmp;
         int dayAdd = 1;
+
+        current.clear();
+        current.set(startDate.get(Calendar.YEAR), startDate.get(Calendar.MONTH), startDate.get(Calendar.DAY_OF_MONTH));
 
         // TODO: There must be a more efficient way to do this.
         while (!current.after(endDate)) {
             if (matchesSchedule(firstDate, current)) {
                 result.add(current);
+
+                if (max == result.size()) {
+                    break;
+                }
 
                 if (!mondayThroughFriday) {
                     dayAdd = frequency;

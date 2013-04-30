@@ -27,7 +27,7 @@ public class WeeklyScheduleTest {
         start.set(2013, Calendar.JUNE, 28);
 
         schedule.parseSchedule("1-Y,Y,Y,Y,Y,Y,Y-07/02/2013");
-        List<Calendar> dates = schedule.getAllDates(first, start);
+        List<Calendar> dates = schedule.getDates(first, start, Integer.MAX_VALUE);
 
         Assert.assertNotNull(dates);
         Assert.assertEquals(5, dates.size());
@@ -57,7 +57,7 @@ public class WeeklyScheduleTest {
         start.set(2013, Calendar.JANUARY, 6);
 
         schedule.parseSchedule("2-Y,Y,Y,Y,Y,Y,Y-01/16/2013");
-        List<Calendar> dates = schedule.getAllDates(first, start);
+        List<Calendar> dates = schedule.getDates(first, start, Integer.MAX_VALUE);
 
         Assert.assertNotNull(dates);
         Assert.assertEquals(4, dates.size());
@@ -82,7 +82,7 @@ public class WeeklyScheduleTest {
         start.set(2013, Calendar.JANUARY, 6);
 
         schedule.parseSchedule("2-N,Y,N,Y,N,Y,N-01/23/2013");
-        List<Calendar> dates = schedule.getAllDates(first, start);
+        List<Calendar> dates = schedule.getDates(first, start, Integer.MAX_VALUE);
 
         Assert.assertNotNull(dates);
         Calendar[] expectedDates = {

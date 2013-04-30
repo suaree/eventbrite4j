@@ -65,6 +65,10 @@ public final class ConversionHelper {
         for (String part : parts) {
             String partLower = part.toLowerCase(Locale.US);
 
+            if (null == part || part.isEmpty()) {
+                continue;
+            }
+
             if (valueMap.containsKey(partLower)) {
                 result.add(valueMap.get(partLower));
             } else {

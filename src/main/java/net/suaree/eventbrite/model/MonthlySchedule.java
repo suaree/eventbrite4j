@@ -64,14 +64,17 @@ public class MonthlySchedule extends RepeatSchedule {
     }
 
     /**
-     * Gets all dates that match this schedule.
+     * Gets up to max dates after startDate that match this schedule which started on firstDate.
      *
      * @param firstDate The first date for the schedule.
-     * @param startDate The start date for the schedule.
+     * @param startDate The start date for the schedule; only results on or after this date must be returned.
+     * @param max       The maximum number of schedule dates to return;
      * @return A List of Calendar objects representing the dates that match this schedule.
      */
     @Override
-    protected List<Calendar> getAllDates(Calendar firstDate, Calendar startDate) {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+    protected List<Calendar> getDates(Calendar firstDate, Calendar startDate, int max) {
+        assert 0 < max;
+
+        return null;
     }
 }

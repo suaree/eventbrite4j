@@ -25,6 +25,34 @@ public abstract class RepeatSchedule {
     }
 
     /**
+     * Gets the start date of the next max occurrences in this repeat schedule.
+     *
+     * @param firstDate    The Calendar which defines the first date of this repeating schedule.
+     * @param earliestDate The Calendar which defines the earliest occurrence to return.
+     * @param max          The maximum number of occurrences to return;
+     * @return An instance of Calendar that describes the next occurrence of this schedule on or after earliestDate.
+     */
+    public List<Calendar> getNextOccurrences(Calendar firstDate, Calendar earliestDate, int max) {
+        return getDates(firstDate, earliestDate, max);
+    }
+
+    /**
+     * Gets the start date of the next occurrence in this repeat schedule.
+     *
+     * @param firstDate The Calendar which defines the first date of this repeating schedule.
+     * @return An instance of Calendar that describes the next occurrence of this schedule on or after earliestDate.
+     */
+    public Calendar getNextOccurrence(Calendar firstDate) {
+        List<Calendar> results = getNextOccurrences(firstDate, Calendar.getInstance(timeZone), 1);
+
+        if (null != results && 1 == results.size()) {
+            return results.get(0);
+        } else {
+            return null;
+        }
+    }
+
+    /**
      * Tries to parses the given raw schedule spec and returns the resulting RepeatSchedule on success.
      *
      * @param timeZone    The TimeZone to use for date/time parsing.
@@ -71,11 +99,12 @@ public abstract class RepeatSchedule {
     protected abstract void parseSchedule(String rawScheduleRemainder);
 
     /**
-     * Gets all dates that match this schedule.
+     * Gets up to max dates after startDate that match this schedule which started on firstDate.
      *
      * @param firstDate The first date for the schedule.
-     * @param startDate The start date for the schedule.
+     * @param startDate The start date for the schedule; only results on or after this date must be returned.
+     * @param max       The maximum number of schedule dates to return;
      * @return A List of Calendar objects representing the dates that match this schedule.
      */
-    protected abstract List<Calendar> getAllDates(Calendar firstDate, Calendar startDate);
+    protected abstract List<Calendar> getDates(Calendar firstDate, Calendar startDate, int max);
 }

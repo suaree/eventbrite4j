@@ -24,6 +24,9 @@ public enum Category {
     Fairs("fairs"),
     Food("food"),
     Music("music"),
+    Movies("movies"),
+    Comedy("comedy"),
+    Endurance("endurance"),
     Recreation("recreation");
 
     private final String value;
