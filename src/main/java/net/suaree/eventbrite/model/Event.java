@@ -51,6 +51,27 @@ public class Event extends EventData {
 
     private Venue venue;
 
+    private String tags;
+
+    private String description;
+
+    private Privacy privacy;
+
+    private EventStatus status;
+
+    private long capacity;
+
+    @SerializedName("num_attendee_rows")
+    private long numAttendees;
+
+    private Organizer organizer;
+
+    @SerializedName("created")
+    private String createdRaw;
+
+    @SerializedName("modified")
+    private String modifiedRaw;
+
     public static Type getType() {
         return TypeToken.get(Event.class).getType();
     }
@@ -137,6 +158,70 @@ public class Event extends EventData {
 
     public void setVenue(Venue venue) {
         this.venue = venue;
+    }
+
+    public String getTags() {
+        return tags;
+    }
+
+    public void setTags(String tags) {
+        this.tags = tags;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public Privacy getPrivacy() {
+        return privacy;
+    }
+
+    public void setPrivacy(Privacy privacy) {
+        this.privacy = privacy;
+    }
+
+    public long getCapacity() {
+        return capacity;
+    }
+
+    public void setCapacity(long capacity) {
+        this.capacity = capacity;
+    }
+
+    public long getNumAttendees() {
+        return numAttendees;
+    }
+
+    public void setNumAttendees(long numAttendees) {
+        this.numAttendees = numAttendees;
+    }
+
+    public Organizer getOrganizer() {
+        return organizer;
+    }
+
+    public EventStatus getStatus() {
+        return status;
+    }
+
+    public String getCreatedRaw() {
+        return createdRaw;
+    }
+
+    public Calendar getCreated() {
+        return parseRawDateTime(createdRaw);
+    }
+
+    public String getModifiedRaw() {
+        return modifiedRaw;
+    }
+
+    public Calendar getModified() {
+        return parseRawDateTime(modifiedRaw);
     }
 
     private Calendar parseRawDateTime(String rawDateTime) {

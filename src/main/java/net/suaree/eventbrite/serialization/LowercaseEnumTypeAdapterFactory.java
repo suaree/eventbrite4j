@@ -46,7 +46,7 @@ public class LowercaseEnumTypeAdapterFactory implements TypeAdapterFactory {
                     reader.nextNull();
                     return null;
                 } else {
-                    return lowercaseToConstant.get(reader.nextString());
+                    return lowercaseToConstant.get(reader.nextString().toLowerCase());
                 }
             }
         };

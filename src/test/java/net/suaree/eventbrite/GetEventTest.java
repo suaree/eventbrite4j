@@ -2,10 +2,8 @@ package net.suaree.eventbrite;
 
 import net.suaree.eventbrite.exception.RequestErrorException;
 import net.suaree.eventbrite.exception.RequestException;
-import net.suaree.eventbrite.model.Category;
+import net.suaree.eventbrite.model.*;
 import net.suaree.eventbrite.model.Error;
-import net.suaree.eventbrite.model.Event;
-import net.suaree.eventbrite.model.Venue;
 import net.suaree.eventbrite.operations.EventResult;
 import net.suaree.eventbrite.operations.GetEventRequest;
 import org.junit.Assert;
@@ -69,5 +67,12 @@ public class GetEventTest extends TestBase {
 
         Assert.assertEquals(new Double(37.77493), venue.getLatitude());
         Assert.assertEquals(new Double(-122.419416), venue.getLongitude());
+
+        Organizer organizer = event.getOrganizer();
+        Assert.assertNotNull(organizer);
+
+        Assert.assertEquals(new Long(2530262718L), organizer.getId());
+        Assert.assertEquals("Center for Healthcare Innovation", organizer.getName());
+        Assert.assertEquals("http://www.eventbrite.com/org/2530262718", organizer.getUrl());
     }
 }
