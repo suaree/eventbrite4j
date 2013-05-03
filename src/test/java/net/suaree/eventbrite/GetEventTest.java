@@ -74,5 +74,7 @@ public class GetEventTest extends TestBase {
         Assert.assertEquals(new Long(2530262718L), organizer.getId());
         Assert.assertEquals("Center for Healthcare Innovation", organizer.getName());
         Assert.assertEquals("http://www.eventbrite.com/org/2530262718", organizer.getUrl());
+
+        Assert.assertEquals(5, event.getTickets().size());
     }
 }

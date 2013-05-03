@@ -3,10 +3,10 @@ package net.suaree.eventbrite.serialization;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Locale;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.*;
 import java.util.regex.Pattern;
 
 /**
@@ -18,6 +18,8 @@ public final class ConversionHelper {
     private static final Log log = LogFactory.getLog(ConversionHelper.class);
 
     private static final Pattern RegexCommaSeparatedList = Pattern.compile(",");
+
+    private static final DateFormat DateTimeFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
     /**
      * Returns the values of the given input array as a string with the values comma-separated.
@@ -77,5 +79,34 @@ public final class ConversionHelper {
         }
 
         return result;
+    }
+
+    /**
+     * Parses the given raw date/time spec (from an Eventbrite API) using the specified TimeZone information.
+     *
+     * @param rawDateTime The date/time spec to parse. Must be in the format "yyyy-MM-dd HH:mm:ss".
+     * @param timeZone The TimeZone to parse the date/time spec in.
+     * @return A new instance of Calendar that represents the parsed date/time spec in the specified TimeZone.
+     */
+    public static Calendar parseRawDateTime(String rawDateTime, TimeZone timeZone) {
+        if (null == rawDateTime) {
+            throw new IllegalArgumentException("rawDateTime");
+        }
+
+        if (null == timeZone) {
+            throw new IllegalArgumentException("timeZone");
+        }
+
+        Calendar cal = Calendar.getInstance(timeZone);
+
+        try {
+            cal.setTime(DateTimeFormat.parse(rawDateTime));
+        } catch (ParseException ex) {
+            log.error("ParseException:", ex);
+
+            throw new RuntimeException(ex);
+        }
+
+        return cal;
     }
 }

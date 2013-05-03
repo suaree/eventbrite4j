@@ -10,6 +10,7 @@ import java.lang.reflect.Type;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 import java.util.TimeZone;
@@ -21,8 +22,6 @@ import java.util.TimeZone;
  */
 public class Event extends EventData {
     private static final Log log = LogFactory.getLog(Event.class);
-
-    private static final DateFormat DateTimeFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
     private Long id;
 
@@ -65,6 +64,8 @@ public class Event extends EventData {
     private long numAttendees;
 
     private Organizer organizer;
+
+    private List<TicketWrapper> tickets;
 
     @SerializedName("created")
     private String createdRaw;
@@ -113,7 +114,7 @@ public class Event extends EventData {
     }
 
     public Calendar getStartDate() {
-        return parseRawDateTime(startDateRaw);
+        return ConversionHelper.parseRawDateTime(startDateRaw, timeZone);
     }
 
     public String getEndDateRaw() {
@@ -121,7 +122,7 @@ public class Event extends EventData {
     }
 
     public Calendar getEndDate() {
-        return parseRawDateTime(endDateRaw);
+        return ConversionHelper.parseRawDateTime(endDateRaw, timeZone);
     }
 
     public long getDurationInMillis() {
@@ -204,6 +205,10 @@ public class Event extends EventData {
         return organizer;
     }
 
+    public List<? extends Ticket> getTickets() {
+        return TicketWrapper.getTickets(tickets);
+    }
+
     public EventStatus getStatus() {
         return status;
     }
@@ -213,7 +218,7 @@ public class Event extends EventData {
     }
 
     public Calendar getCreated() {
-        return parseRawDateTime(createdRaw);
+        return ConversionHelper.parseRawDateTime(createdRaw, timeZone);
     }
 
     public String getModifiedRaw() {
@@ -221,20 +226,6 @@ public class Event extends EventData {
     }
 
     public Calendar getModified() {
-        return parseRawDateTime(modifiedRaw);
-    }
-
-    private Calendar parseRawDateTime(String rawDateTime) {
-        Calendar cal = Calendar.getInstance(timeZone);
-
-        try {
-            cal.setTime(DateTimeFormat.parse(rawDateTime));
-        } catch (ParseException ex) {
-            log.error("ParseException:", ex);
-
-            throw new RuntimeException(ex);
-        }
-
-        return cal;
+        return ConversionHelper.parseRawDateTime(modifiedRaw, timeZone);
     }
 }
