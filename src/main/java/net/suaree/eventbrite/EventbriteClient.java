@@ -131,9 +131,11 @@ public class EventbriteClient {
     private ResultBase sendRequest(RequestBase request) throws RequestException {
         assert null != request;
 
+        HttpGet get = null;
+
         try {
             URI requestUri = request.getUri(credentials);
-            HttpGet get = new HttpGet(requestUri);
+            get = new HttpGet(requestUri);
 
             if (log.isDebugEnabled()) {
                 log.debug(String.format("GET %s", get.getURI()));
@@ -178,6 +180,10 @@ public class EventbriteClient {
             log.error("IOException:", ex);
 
             throw new RequestException(ex);
+        } finally {
+            if (null != get) {
+                get.releaseConnection();
+            }
         }
     }
 }

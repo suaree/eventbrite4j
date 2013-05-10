@@ -18,7 +18,7 @@
     "category": "conferences,sales",
     "box_header_background_color": "EFEFEF",
     "capacity": 0,
-    "num_attendee_rows": 7,
+    "num_attendee_rows": 7.0,
     "title": "China, India, & U.S. Life Science Markets Symposium",
     "start_date": "2013-10-24 08:00:00",
     "status": "Live",

@@ -61,7 +61,7 @@ public class Event extends EventData {
     private long capacity;
 
     @SerializedName("num_attendee_rows")
-    private long numAttendees;
+    private double numAttendees;
 
     private Organizer organizer;
 
@@ -194,7 +194,7 @@ public class Event extends EventData {
     }
 
     public long getNumAttendees() {
-        return numAttendees;
+        return (long)numAttendees;
     }
 
     public void setNumAttendees(long numAttendees) {
