@@ -13,6 +13,7 @@ import net.suaree.eventbrite.serialization.TimeZoneDeserializer;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.http.Header;
+import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.HttpClient;
@@ -82,6 +83,10 @@ public class EventbriteClient {
                 .create();
     }
 
+    public void shutdown() {
+        httpClient.getConnectionManager().shutdown();
+    }
+
     /**
      * Searches for events using the Eventbrite event_search API.
      *
@@ -132,6 +137,7 @@ public class EventbriteClient {
         assert null != request;
 
         HttpGet get = null;
+        InputStream in = null;
 
         try {
             URI requestUri = request.getUri(credentials);
@@ -142,7 +148,13 @@ public class EventbriteClient {
             }
 
             HttpResponse response = httpClient.execute(get);
-            InputStream in = response.getEntity().getContent();
+            HttpEntity entity = response.getEntity();
+
+            if (null == entity) {
+                throw  new RequestException("No entity present in response.");
+            }
+
+            in = entity.getContent();
             Reader reader;
 
             if (log.isDebugEnabled()) {
@@ -181,6 +193,14 @@ public class EventbriteClient {
 
             throw new RequestException(ex);
         } finally {
+            if (null != in) {
+                try {
+                    in.close();
+                } catch (IOException ex) {
+                    log.error("IOException:", ex);
+                }
+            }
+
             if (null != get) {
                 get.releaseConnection();
             }
