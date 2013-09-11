@@ -61,7 +61,15 @@ public class SearchRequest extends RequestBase {
      */
     private WithinUnit withinUnit;
 
-    // TODO: latitude and longitude
+    /**
+     * The latitude of the location to search.
+     */
+    private Double latitude;
+
+    /**
+     * The longitude of the location to search.
+     */
+    private Double longitude;
 
     /**
      * The search_date for the search.
@@ -245,6 +253,22 @@ public class SearchRequest extends RequestBase {
         this.withinUnit = withinUnit;
     }
 
+    public Double getLatitude() {
+        return latitude;
+    }
+
+    public void setLatitude(Double latitude) {
+        this.latitude = latitude;
+    }
+
+    public Double getLongitude() {
+        return longitude;
+    }
+
+    public void setLongitude(Double longitude) {
+        this.longitude = longitude;
+    }
+
     /**
      * Gets the name of the Eventbrite API this request is for.
      *
@@ -280,6 +304,8 @@ public class SearchRequest extends RequestBase {
 
         addParameter("within", within, params);
         addParameter("within_unit", withinUnit, params);
+        addParameter("latitude", latitude, params);
+        addParameter("longitude", longitude, params);
 
         addParameter("date", searchDate, params);
 
